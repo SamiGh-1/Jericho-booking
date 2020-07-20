@@ -65,4 +65,55 @@ If we ignore this kind of problem, many resources will need to increase in order
 ##### Looking at all of these issues in the other applications
 1. We can have a huge advantage above them by fixing the issues.
 2. We will fix the problems in the site before even the audience uses it.
+### 4.2 Secondary Competitors
+- Kayak: <br>
+ is a travel agency and metasearch engine owned and operated by Booking Holdings. <br>
+ The company also runs travel search engines checkfelix, Mundi, Hotels Combined, and swoodoo. Kayak was founded in January 2004 by Steve Hafner and Paul M. English.
+- Airbnb: <br>
+is an American vacation rental online marketplace company based in San Francisco, California, United States. Airbnb offers arrangements for lodging, primarily homestays, or tourism experiences. <br>
+The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
+- HotelsCombined: <br>
+ a unit of Booking Holdings, is a hotel metasearch engine founded in 2005, with headquarters in Sydney, Australia. The site operates in over 42 languages, handles 130 different currencies and aggregates more than 2 million deals from hundreds of travel sites and hotel chains. The company employs over 200 staff.
+- There is one more site but this one we can count as a site that we can work with rather than being competitive with, which is Trivago. Trivago is a site that compares the hotels prices from different sites from around the world.
+### 4.3 Risks
+We are taking some risks facing these competitors because of some advantages they have on us such as:
+- These sites give the user the ability to book flights to their destination but due to the lack of aviation in Palestine we can’t feature it in ours.
+- Our site is going to be new to the market and the majority of the people use their favorite site, it's going to be a bit difficult to convince people to use our site. The advantage we have in this situation is that we are focusing only on Jericho.
+## 5. The audience of the site
+Most of our audience are people looking for a place where they stay in Jericho, each user has different needs depending on the reason for the visit. We have four kinds of users: citizens, travellers, business-trip travellers, business-trip companies and exchange volunteers. <br>
+Citizens are most likely to search for chalets, business-trip travellers and companies are most likely to search for hotels, travellers and exchange volunteers are most likely to search for hostels and hotels. <br>
+Here are our user personas. <br>
+Traveler persona :  https://app.milanote.com/1JW7ii1P3jF54P/persona2?p=ywt5nbr68E2 <br>
+Business-trip travellers : https://app.milanote.com/1JW6Tp1P3jBo3j?p=QlxoJcAti6Y <br>
+Business-trip companies : <br>
+Exchange volunteers :<br>
+## 6. Goals
+According to the analysis of problems from the competitors' website, we came up with the following solutions:
+1. To Provide a place to stay in and a tourist guide in Jericho that suits tourists requests.
+2. To introduce the tourist to the locations of the restaurants and the tourist attractions.
+3. Execute the user request without changing it by the owner.
+4. The user can cancel the reservation and return of his money under certain conditions that guarantee the rights of both parties.
+5. To provide strong and relevant page design and linking so we have a good user experience.
+6. Confirm the reservation process and not cancel it unless the user requests it.
+## 7. Our services
+We provide several services for all users, such as a guide that shows the famous and the fun places in Jericho, also it shows the places for the restaurants, moreover, it has a tour guide that could take them to a trip in jericho. <br>
+Our users also find the needed transportation services in Jericho such as Kareem and local Taxi offices, also they find services for the travelling stuff like Amteaa. 
+## 8. Design: 
+### 8.1 Wireframe
+The wire frame that we designed (it will be updated according to the seo analysis later): 
+### 8.2 Colors : 
+We suggest using one of these groups to format colors in the website:
+![Color pallet](/Capture.png)
+Format: ![Color:](url)
+### 8.3 Fonts : 
+We suggest 4 best font pairings :
+## 9. Meet our team 
+- Mawada Sweis, Proposal writer <br>
+mawada.sweis19@gmail.com
+- Sami ghazal, Competition researcher <br>
+sami.ghazal.2@gmail.com
+- Noor Kobari, Designer <br>
+noor.kobari9@gmail.com
+- Zubaida Al-Sadder & Ibrahim Ratrout, Defining the audience group by the persona user <br>
+sdrzubaida@gmail.com, ibrahimratrout11@gmail.com
 
