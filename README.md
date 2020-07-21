@@ -102,7 +102,7 @@ Our users also find the needed transportation services in Jericho such as Kareem
 ### 8.1 Wireframe
 The wire frame that we designed (it will be updated according to the seo analysis later): https://lot6np.axshare.com/
 ### 8.2 Colors : 
-We suggest using this group of colors to format colors in the website:  https://coolors.co/0fa3b1-b5e2fa-f9f7f3-eddea4-f7a072
+We suggest using this group of colors to format colors in the website:  https://coolors.co/eca400-eaf8bf-006992-27476e-001d4a
 ### 8.3 Fonts : 
 We suggest using this font: Merriweather - https://fonts.google.com/specimen/Merriweather?query=Merriweather
 ## 9. Meet our team 
