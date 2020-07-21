@@ -85,7 +85,7 @@ Citizens are most likely to search for chalets, business-trip travellers and com
 Here are our user personas. <br>
 Traveler persona :  https://app.milanote.com/1JW7ii1P3jF54P/persona2?p=ywt5nbr68E2 <br>
 Business-trip travellers : https://app.milanote.com/1JW7ii1P3jF54P?p=ywt5nbr68E2 <br>
-Business-trip companies : <br>
+Business-trip companies : https://app.milanote.com/1JXY8Z1vE84c4i?p=3G4Tt3sekBY <br>
 Exchange volunteers : https://app.milanote.com/1JXRIH1vE75Fft?p=0kZvFCh9Qzu <br>
 ## 6. Goals
 According to the analysis of problems from the competitors' website, we came up with the following solutions:
