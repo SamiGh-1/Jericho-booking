@@ -1,9 +1,9 @@
 # JIJ- Journey Into Jericho project <br> by Solve tourist problems technologically company (STPT)
 Thank you for choosing the STPT team for creating your website. We're glad we had the opportunity to communicate so we could get a clear understanding of your unique, actionable idea expectations.<br>
-We specialize in working with tourism companies in Palestine,since a tourist asked us to come up with a campaign back in 2019 and It was a big success.
+We specialize in working with tourism companies in Palestine, since a tourist asked us to come up with a campaign back in 2019 and It was a big success. <br>
 Our main goal is to focus on an approach to build a website as modern design that serves the user's needs, by looking at your core values, your target market, and best practices and methodology on how to craft an authentic message that resonates directly with your audience. Finally, we suggest features and advantages that set you apart from other competitors.<br>
-We believe our proposal provides a complete solution to solve your problem about booking in Jericho city that will culminate in highly successful results for your business.
-If you have any questions, feel free to contact on  gmai:” stpt.comp@gmail.com” or on phone:”888-555-5555”, through Sunday to Thursday, from 8am to 8pm. <br>
+We believe our proposal provides a complete solution to solve your problem about booking in Jericho city that will culminate in highly successful results for your business. <br>
+If you have any questions, feel free to contact on  gmail:” stpt.comp@gmail.com” or on phone:”888-555-5555”, through Sunday to Thursday, from 8am to 8pm. <br>
 Thank you.<br>
 Zubaida Al-Sadder<br>
 Public relations, STPT team. <br>
