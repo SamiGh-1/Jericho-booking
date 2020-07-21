@@ -84,7 +84,7 @@ Most of our audience are people looking for a place where they stay in Jericho, 
 Citizens are most likely to search for chalets, business-trip travellers and companies are most likely to search for hotels, travellers and exchange volunteers are most likely to search for hostels and hotels. <br>
 Here are our user personas. <br>
 Traveler persona :  https://app.milanote.com/1JW7ii1P3jF54P/persona2?p=ywt5nbr68E2 <br>
-Business-trip travellers : https://app.milanote.com/1JW7ii1P3jF54P?p=ywt5nbr68E2 <br>
+Business-trip travellers : https://app.milanote.com/1JW6Tp1P3jBo3j?p=QlxoJcAti6Y <br>
 Business-trip companies : https://app.milanote.com/1JXY8Z1vE84c4i?p=3G4Tt3sekBY <br>
 Exchange volunteers : https://app.milanote.com/1JXRIH1vE75Fft?p=0kZvFCh9Qzu <br>
 ## 6. Goals
