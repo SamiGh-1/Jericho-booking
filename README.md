@@ -24,7 +24,6 @@ Public relations, STPT team. <br>
    - Wireframe
    - Color
    - fonts
-   - Action 
 9. Meet our team
 ## 3. General description <br>
 “JIJ” is a booking website in Jericho city, it has three locations for the tourist: hotels, hostel and the chalet. “ JIJ” leads them to tourist attractions, and helps the tourists with several services they need.
