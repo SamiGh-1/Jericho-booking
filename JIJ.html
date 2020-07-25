@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img{
+position: absolute;
+padding-top:7px;
+padding-left:7px;
+float:left;
+width: 150px;
+height: 125px;
+
+}
+
+video {
+position: absolute;
+top: 88px;
+width: 98.75%;
+height: 60%;
+object-position: center;
+object-fit: cover;
+margin-left:0.65px;
+}
+
+.navigation{
+overflow: hidden;
+background-color:rgba(0, 29, 74, 1) ;
+width: 100%;
+height:81px;
+background-position:top;
+margin-top:0px;
+}
+
+.jeric{
+background-repeat: no-repeat;
+background-size: cover;
+margin-top:0px;
+background-position: center;
+height: 355px;
+}
+
+.navigation p{
+margin-left:170px;
+margin-top:20px;
+border-width: 0px;
+position: absolute;
+font-family: Merriweather;
+font-size: 45px;
+color: #FFFFFF;
+}
+
+select {
+float:right;
+font-size:14px;
+width: 50px;
+height: 30px;
+padding: 0px;
+margin: 30px 350px;
+box-sizing: 20px;
+border:none;
+border-radius:4px;
+background-color:#f1f1f1
+}
+ 
+#Lang{
+float:right;
+font-size:14px;
+width: 50px;
+height: 30px;
+padding: 0px;
+margin: 30px -460px;
+box-sizing: 20px;
+border:none;
+border-radius:4px;
+background-color:#f1f1f1  
+}
+
+#login{
+float:right;
+font-size:20px;
+width: 50px;
+height: 30px;
+margin: 34px -520px;
+box-sizing: 20px;
+border-radius:4px;
+color:white;
+text-decoration: none;
+}
+
+#join{
+width: 138px;
+height: 40px;
+float:right;
+position:right-side;
+font-size:25px;
+margin: 25px -740px;
+padding-left:60px;
+padding-top:7px;
+border-radius:4px;
+background-color:rgb(236, 164, 0);
+color:white;
+text-decoration: none;
+}
+
+input[type=search]{
+position:absolute;
+box-sizing: border-box;
+border: 2px solid #ccc;
+font-size: 16px;
+background-color: white;
+width: 346px;
+height: 52px;
+padding: 4px 0px 1px 13px;;
+border-radius: 4px;
+margin:65px 50px 40px 500px;
+}  
+    
+#Check_in{
+position:absolute;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 15px 4px 320px;
+}
+
+#Check_out{
+position:absolute;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 0px 4px 550px;
+}
+
+.jeric select{
+position:absolute;
+margin-left: 180px;
+margin-top: 180px;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 320px 4px 780px;
+
+}
+#search{
+position:absolute;
+font-weight: 700;
+font-style: normal;
+width: 125px;
+height: 40px;
+float:right;
+position:center;
+font-size:25px;
+margin: 250px 580px;
+padding-left:50px;
+padding-top:7px;
+border-radius:4px;
+background-color:rgb(236, 164, 0);
+color:white;
+text-decoration: none;
+}
+
+.Hotelspage{
+background-image:url("images/hotels.png");
+background-position:center;
+position: absolute;
+width: 300px;
+height: 232px;
+margin-left: 510px;
+display: flex;
+}
+
+.Chaletspage{
+background-image:url("images/chalets.jpg");
+position: absolute;
+width: 300px;
+height: 171px;
+margin-left: 850px;
+display: flex;
+margin-top:20px;
+}
+
+.Hostelspage{
+background-image:url("images/hostels.jpg");
+position: absolute;
+width: 300px;
+height: 171px;
+margin-left: 170px;
+display: flex;
+margin-top:20px;
+}
+
+#Rarrow{
+position:absolute;
+width:50px;
+height:40px;
+display:fix;
+margin-top:90px;
+margin-left:800px;
+}
+
+#Larrow{
+position:absolute;
+width:50px;
+height:40px;
+display:fix;
+margin-top:90px;
+margin-left:455px;
+}
+p.Hot{
+position:absolute;
+margin-top:200px;
+margin-left:290px;
+font-size:24px;
+}
+
+h1{
+position:absolute;
+margin-top:240px;
+margin-left:610px;
+font-size: 2.2em;
+}
+
+p.Host{
+position:absolute;
+margin-top:200px;
+margin-left:980px;
+font-size:24px;
+}
+
+</style>
+<title>JIJ</title>
+</head>
+
+<body>
+
+<div class="navigation">
+<a href>
+<img id="logo" src="images/logo.png"></img>
+</a>
+<p>Journey Into Jericho</p>
+
+<form method="post">
+<select name="currency" >
+<option  >NIS</option>
+<option>AUD</option>
+<option>BHD</option>
+<option>BRL</option>
+<option>CAD</option>
+<option>CHF</option>
+<option>CLP</option>
+<option>CNY</option>
+<option>COP</option>
+<option>DZD</option>
+<option>EGP</option>
+<option>EUR</option>
+<option>GBP</option>
+<option>GHS</option>
+<option>HKD</option>
+<option>IDR</option>
+<option>ILS</option>
+<option>INR</option>
+<option>IQD</option>
+<option>JOD</option>
+<option>JPY</option>
+<option>KRW</option>
+<option>KWD</option>
+<option>LKR</option>
+<option>MAD</option>
+<option>MYR</option>
+<option>NGN</option>
+<option>NZD</option>
+<option>OMR</option>
+<option>PHP</option>
+<option>PKR</option>
+<option>PLN</option>
+<option>QAR</option>
+<option>RUB</option>
+<option>SAR</option>
+<option>SEK</option>
+<option>SGD</option>
+<option>THB</option>
+<option>TND</option>
+<option>TRY</option>
+<option>TWD</option>
+<option>USD</option>
+<option>VND</option>
+<option>ZAR</option></select>
+
+
+<select id="Lang" name="Language" >
+<option>EN</option>
+<option>AR</option>
+</select>
+
+<a id="login" href="Login">Login</a>
+<a id="join" href="Join us">Join us</a>
+</form>
+</div>
+
+
+<div class="jeric">
+<header>
+<video autoplay muted loop>
+<source src="video.mp4" type="video/mp4" />
+</video>
+<form method="post">
+<input type="search" placeholder="Search for a hotel, hostel or chalet..">
+<input id="Check_in" type="date"  name="Check_in" placeholder="Check in">
+<input id="Check_out" type="date"  name="Check_out" placeholder="Check out">
+<select name="Guests" >
+
+<option>Adults</option>
+<option>Children</option>
+<option>rooms</option></select><br>
+
+<a id="search" href="Search">Search</a>
+</header>
+</form>
+</div>
+<br><br><br>
+<a href=" ">
+<div class="Hotelspage"></div>
+</a>
+<a href= " ">
+<div class="Chaletspage"></div>
+</a>
+<a href= " ">
+<div class="Hostelspage"></div>
+</a>
+<div class="Tourguide"></div>
+
+<img id="Rarrow" src="images/rarrow.png"></img>
+<img id="Larrow" src="images/larrow.png"></img>
+
+<p class="Hot"><b>Hotels</b></p>
+<h1>Chalets</h1>
+<p class="Host"><b>Hostels</b></p>
+
+</body>
+</html>
