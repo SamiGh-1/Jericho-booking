@@ -1,0 +1,422 @@
+/* css for homepage */
+* {
+    font-family: 'Merriweather', serif;
+    }
+.breakhorizontally{
+    height: 100px;
+    }
+.breakVertically{
+    width: 4%;
+    }
+.breakBetweenSec{
+	margin-top: 25%;
+	}
+
+/* header */
+.imagesection1{
+	z-index: 1000;
+	position: relative;
+	position: absolute;
+	padding-top:7px;
+	padding-left:7px;
+	float:left;
+	width: 150px;
+	height: 150px;
+	}
+video {
+	position: absolute;
+	top: 88px;
+	width: 98.9%;
+	height: 60%;
+	object-position: center;
+	object-fit: cover;
+	margin-left:0.65px;
+	}
+.navigation{
+	overflow: hidden;
+	background-color:rgba(0, 29, 74, 1) ;
+	width: 100%;
+	height:81px;
+	background-position:top;
+	margin-top:0px;
+	}
+.jeric{
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:0px;
+	background-position: center;
+	height: 355px;
+	}
+.navigation p{
+	margin-left:170px;
+	margin-top:20px;
+	border-width: 0px;
+	position: absolute;
+	font-family: Merriweather;
+	font-size: 45px;
+	color: #FFFFFF;
+	}
+.currency {
+	float:right;
+	font-size:14px;
+	width: 50px;
+	height: 30px;
+	padding: 0px;
+	margin: 30px 350px;
+	box-sizing: 20px;
+	border:none;
+	border-radius:4px;
+	background-color:#f1f1f1
+	}
+#Lang{
+	
+	margin: 30px -460px;
+	}
+#login{
+	float:right;
+	font-size:20px;
+	width: 50px;
+	height: 30px;
+	margin: 34px -520px;
+	box-sizing: 20px;
+	border-radius:4px;
+	color:white;
+	text-decoration: none;
+	}
+#join{
+	width: 138px;
+	height: 40px;
+	float:right;
+	position:right-side;
+	font-size:25px;
+	margin: 25px -740px;
+	padding-left:60px;
+	padding-top:7px;
+	border-radius:4px;
+	background-color:rgb(236, 164, 0);
+	color:white;
+	text-decoration: none;
+	}
+input[type=search]{
+	position:absolute;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	font-size: 16px;
+	background-color: white;
+	width: 346px;
+	height: 52px;
+	padding: 4px 0px 1px 13px;;
+	border-radius: 4px;
+	margin:65px 50px 40px 500px;
+	}   
+#Check_in{
+	position:absolute;
+	font-size:14px;
+	width: 217px;
+	height: 52px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	border-radius:4px;
+	background-color:#f1f1f1;
+	padding: 4px 1px 1px 5px;
+	margin:170px 15px 4px 320px;
+	}
+#Check_out{
+	position:absolute;
+	font-size:14px;
+	width: 217px;
+	height: 52px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	border-radius:4px;
+	background-color:#f1f1f1;
+	padding: 4px 1px 1px 5px;
+	margin:170px 0px 4px 550px;
+	}
+.jeric select{
+	position:absolute;
+	margin-left: 180px;
+	margin-top: 180px;
+	font-size:14px;
+	width: 217px;
+	height: 52px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	border-radius:4px;
+	background-color:#f1f1f1;
+	padding: 4px 1px 1px 5px;
+	margin:170px 320px 4px 780px;
+
+	}
+#search{
+	position:absolute;
+	font-weight: 700;
+	font-style: normal;
+	width: 125px;
+	height: 40px;
+	float:right;
+	position:center;
+	font-size:25px;
+	margin: 250px 580px;
+	padding-left:50px;
+	padding-top:7px;
+	border-radius:4px;
+	background-color:rgb(236, 164, 0);
+	color:white;
+	text-decoration: none;
+	}
+.marginLeft{
+	margin-left: 7%;
+	}
+#Hotelspage{
+	background-image:url("image/hotel.png");
+	background-position:center;
+	position: absolute;
+	width: 300px;
+	height: 232px;
+	margin-left: 510px;
+	display: flex;
+	}
+#Chaletspage{
+	background-image:url("image/chalet.jpg");
+	position: absolute;
+	width: 300px;
+	height: 171px;
+	margin-left: 850px;
+	display: flex;
+	margin-top:20px;
+	}
+#Hostelspage{
+	background-image:url("image/hostel.jpg");
+	position: absolute;
+	width: 300px;
+	height: 171px;
+	margin-left: 170px;
+	display: flex;
+	margin-top:20px;
+	}
+#Rarrow{
+	position:absolute;
+	width:50px;
+	height:40px;
+	display:fix;
+	margin-top:90px;
+	margin-left:800px;
+	}
+#Larrow{
+	position:absolute;
+	width:50px;
+	height:40px;
+	display:fix;
+	margin-top:90px;
+	margin-left:455px;
+	}
+#Hot{
+	position:absolute;
+	margin-top:200px;
+	margin-left:290px;
+	font-size:24px;
+	}
+#chal{
+	position:absolute;
+	margin-top:240px;
+	margin-left:610px;
+	font-size: 2.2em;
+	}
+#Host{
+	position:absolute;
+	margin-top:200px;
+	margin-left:980px;
+	font-size:24px;
+	}
+
+/* body */
+
+.flexible{
+    display: flex;
+    }
+.feature{
+    display: inline-flex;
+    height: 25%;
+    width: 80%;
+    margin-left: 11%;
+    }
+.featureCard{
+	font-size: 25px;
+    text-align: center;
+    background-color:none;
+    width: 25%;
+    border-radius: 5px;
+    color: white;
+    }
+.featureCard p{
+	font-size: 20px;
+    margin: 5%;
+    padding-top: 5%;
+    height: 20%;
+    }
+.card {
+    background-color:white;
+    flex-direction: row;
+    box-shadow:
+      3px 10px 7px #888888;
+    width: 40%;
+    padding: 24px;
+    height: 300px;
+    }
+.card p {
+    line-height: 2;
+    letter-spacing: 1px;
+    }
+.card a {
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#F59A23; 
+    }
+
+.imageAD {
+    padding: 0px;
+    width: 60%;
+    height: 350px;
+    background: url('image/cable car.jpg');
+    background-size: cover;
+    position: relative;
+    }
+.feature a:link, .feature a:visited {
+    color: black;
+    text-decoration: none;
+    background-color:#F59A23;
+    border-radius: 14px; 
+    padding: 5px;
+    }
+.feature a:hover, .feature a:active {
+    background-color: #EAF8BF;
+    }
+#linkTour a:link, #linkTour a:visited {
+    color: black;
+    text-decoration: none;
+    background-color:#F59A23;
+    border-radius: 14px; 
+    padding: 15px;
+    font-size: 15px;
+    }
+#linkTour a:hover, #linkTour a:active {
+    background-color: #27476E;
+    }
+#titleAD {
+	font-size: 40px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    color: white;
+    }
+#aboutAD{
+	font-size: 31px;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 4px 8px;
+    }
+#linkTour{
+    margin-left: 60%;
+    }
+.row {
+  display: flex;
+  margin-left: 12%;
+  }
+  .column {
+  flex: 44.44%;
+  
+  }
+.container {
+  position: relative;
+  width: 80%; 
+  }
+.imageReco {
+  display: block;
+  width: 80%;
+  height: 200px;
+  border-radius:50%;
+  }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   width: 80%;
+  height: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  border-radius:50%;
+  }
+.container:hover .overlay {
+  opacity: 1;
+  }
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+#recommended{
+	margin-top: 10%;	
+	}
+
+/* footer */
+footer{
+  letter-spacing: 1px;
+  display: flex;
+  background-color: #001D4A;
+  height: 35%;
+  color: white;
+  padding-left: 3%;
+  }
+footer h1{
+  font-size: 50px;
+  }
+#mail {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color:#F59A23;
+  }
+#aboutUs{
+  width: 400px;
+  }
+.marginLeft {
+  margin-left: 8%;
+  }
+.formatText{
+  font-size: 30px;
+  font-weight: bold;
+  }
+input[type=email] {
+  margin-left: 10%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+.subscribeButton {
+  background-color:#F59A23;
+  border-radius: 5px;
+  border: none; 
+  color: white; 
+  padding: 14px 20px; 
+  } 
+.subscribeButton:hover {
+  background-color: #001D4A;
+  }
