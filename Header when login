@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.breakhorizontally{
+    height: 400px;
+    }
+	
+#logo{
+position: absolute;
+padding-top:7px;
+padding-left:7px;
+float:left;
+width: 150px;
+height: 125px;
+z-index:1000px;
+
+}
+#profile{
+position: absolute;
+width:40px;
+hight:50px;
+padding-top:23px;
+padding-left:1238px;
+}
+
+#seen{
+position: absolute;
+width:40px;
+hight:54px;
+padding-top:23px;
+padding-left:1185px;
+}
+
+#pin{
+position: absolute;
+width:45px;
+hight:45px;
+padding-top:23px;
+padding-left:1130px;
+}
+
+#jericho{
+width:98.7%;
+height:60%;
+padding-top:0px;
+padding-left:1px;
+
+}
+.navigation{
+overflow: hidden;
+background-color:rgba(0, 29, 74, 1) ;
+width: 100%;
+height:81px;
+background-position:top;
+margin-top:0px;
+}
+
+.jeric{
+background-image: url(images/jericho.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top:0px;
+background-position: center;
+height:355px;
+}
+
+.navigation p{
+margin-left:170px;
+margin-top:20px;
+border-width: 0px;
+position: absolute;
+font-family: Merriweather;
+font-size: 45px;
+color: #FFFFFF;
+}
+
+select {
+float:right;
+font-size:14px;
+width: 10px;
+height: 30px;
+padding: 0px;
+margin: 30px 350px;
+box-sizing: 10px;
+border:none;
+border-radius:4px;
+background-color:#f1f1f1
+}
+ 
+#setting{
+float:right;
+font-size:14px;
+width: 20px;
+height: 10px;
+padding: 0px;
+margin: 30px 30px;
+box-sizing: 20px;
+border:none;
+border-radius:4px;
+background-color:rgb(236, 164, 0);
+}
+
+
+input[type=search]{
+position:absolute;
+box-sizing: border-box;
+border: 2px solid #ccc;
+font-size: 16px;
+background-color: white;
+width: 346px;
+height: 52px;
+padding: 4px 0px 1px 13px;;
+border-radius: 4px;
+margin:65px 50px 40px 500px;
+}  
+    
+#Check_in{
+position:absolute;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 15px 4px 320px;
+}
+
+#Check_out{
+position:absolute;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 0px 4px 550px;
+}
+
+.jeric select{
+position:absolute;
+margin-left: 180px;
+margin-top: 180px;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 320px 4px 780px;
+
+}
+#search{
+position:absolute;
+font-weight: 700;
+font-style: normal;
+width: 125px;
+height: 40px;
+float:right;
+position:center;
+font-size:25px;
+margin: 250px 580px;
+padding-left:50px;
+padding-top:7px;
+border-radius:4px;
+background-color:rgb(236, 164, 0);
+color:white;
+text-decoration: none;
+}
+
+
+#Hotelspage{
+background-image:url("images/hotels.png");
+background-position:center;
+position: absolute;
+width: 300px;
+height: 232px;
+margin-left: 510px;
+display: flex;
+}
+
+#Chaletspage{
+background-image:url("images/chalets.jpg");
+position: absolute;
+width: 300px;
+height: 171px;
+margin-left: 850px;
+display: flex;
+margin-top:20px;
+}
+
+#Hostelspage{
+background-image:url("images/hostels.jpg");
+position: absolute;
+width: 300px;
+height: 171px;
+margin-left: 170px;
+display: flex;
+margin-top:20px;
+}
+
+#Rarrow{
+position:absolute;
+width:50px;
+height:40px;
+display:fix;
+margin-top:90px;
+margin-left:800px;
+}
+
+#Larrow{
+position:absolute;
+width:50px;
+height:40px;
+display:fix;
+margin-top:90px;
+margin-left:455px;
+}
+
+#Hot{
+position:absolute;
+margin-top:200px;
+margin-left:290px;
+font-size:24px;
+}
+
+#chal{
+position:absolute;
+margin-top:240px;
+margin-left:610px;
+font-size: 2.2em;
+}
+
+#Host{
+position:absolute;
+margin-top:200px;
+margin-left:980px;
+font-size:24px;
+}
+
+ 
+</style>
+
+</head>
+
+<body>
+<div class="navigation">
+<a href>
+<img id="logo" src="images/logo.png"></img>
+</a>
+<p>Journey Into Jericho</p>
+
+<form method="post">
+<img id="profile" src="images/profile.png"></img>
+<img id="pin" src="images/pin.png"></img>
+<img id="seen" src="images/seen.png"></img>
+
+<select id="setting" name="setting" >
+<option>Settings</option>
+<option>Log out</option>
+</select>
+
+</form>
+</div>
+
+
+<div class="jeric">
+
+<form method="post">
+<input type="search" placeholder="Search for a hotel, hostel or chalet..">
+<input id="Check_in" type="date"  name="Check_in" placeholder="Check in">
+<input id="Check_out" type="date"  name="Check_out" placeholder="Check out">
+<select name="Guests" >
+
+<option>Adults</option>
+<option>Children</option>
+<option>rooms</option></select><br>
+<a id="search" href="Search">Search</a>
+
+<div class="breakhorizontally"></div>
+
+<div class="marginLeft">
+<a href=" ">
+<div id="Hotelspage"></div>
+</a>
+<a href= " ">
+<div id="Chaletspage"></div>
+</a>
+<a href= " ">
+<div id="Hostelspage"></div>
+</a>
+<div id="Tourguide"></div>
+
+<img class="imagesection1" id="Rarrow" src="images/rarrow.png"></img>
+<img class="imagesection1" id="Larrow" src="images/larrow.png"></img>
+
+<p id="Hot"><b>Hotels</b></p>
+<p id="chal">Chalets</p>
+<p id="Host"><b>Hostels</b></p>
+</div>
+
+</div>
+</body>
+</html>
