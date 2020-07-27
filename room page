@@ -199,42 +199,42 @@
                     <td><h2>Extra features</h2></td>
                 </tr>
                 <tr>
-                    <td>Air conditioning</td>
+                    <td>- Air conditioning</td>
                     <td></td>
-                    <td>T.V</td>
+                    <td>- T.V</td>
                     <td></td>
                     <td><input type="checkbox"><label>Currency change</label></td>
                 </tr>
                 <tr>
-                    <td>Coffee / Tea maker</td>
+                    <td>- Coffee / Tea maker</td>
                     <td></td>
-                    <td>In-room safe nox</td>
+                    <td>- In-room safe nox</td>
                     <td></td>
                     <td><input type="checkbox"><label>Daily housekeeping</label></td>
                 </tr>
                 <tr>
-                    <td>Desk</td>
+                    <td>- Desk</td>
                     <td></td>
-                    <td>Telephone</td>
+                    <td>- Telephone</td>
                     <td></td>
                     <td><input type="checkbox"><label>Dry cleaning</label></td>
                 </tr>
                 <tr>
-                    <td>Kettle / Dishwasher / Refrigerator</td>
+                    <td>- Kettle / Dishwasher / Refrigerator</td>
                     <td></td>
-                    <td>Shower</td>
+                    <td>- Shower</td>
                     <td></td>
                     <td><input type="checkbox"><label>Laundry service</label></td>
                 </tr>
                 <tr>
-                    <td>Hair dryer</td>
+                    <td>- Hair dryer</td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td><input type="checkbox"><label>Luggage storage</label></td>
                 </tr>
                 <tr>
-                    <td>Internet access LAN / Wireless</td>
+                    <td>- Internet access LAN / Wireless</td>
                     <td></td>
                     <td></td>
                     <td></td>
