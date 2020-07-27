@@ -69,26 +69,37 @@ video {
 	background-color:#f1f1f1
 	}
 #Lang{
+float:right;
+font-size:14px;
+width: 50px;
+height: 30px;
+padding: 0px;
+margin: 30px -460px;
+box-sizing: 20px;
+border:none;
+border-radius:4px;
+background-color:#f1f1f1  
+	}
 	
-	margin: 30px -460px;
-	}
-#login{
-	float:right;
-	font-size:20px;
-	width: 50px;
-	height: 30px;
-	margin: 34px -520px;
-	box-sizing: 20px;
-	border-radius:4px;
-	color:white;
-	text-decoration: none;
-	}
-#join{
+.open-button {
+position: absolute;
+background-color: rgba(0, 29, 74, 1);
+border:none;
+color: white;
+padding:2px 4px;
+border-radius:4px;
+cursor: pointer;
+margin: 34px 900px;
+font-size:20px;
+width: 70px
+}
+	
+.join{
 	width: 138px;
-	height: 40px;
+	height: 50px;
 	float:right;
 	position:right-side;
-	font-size:25px;
+	font-size:22px;
 	margin: 25px -740px;
 	padding-left:60px;
 	padding-top:7px;
@@ -229,6 +240,191 @@ input[type=search]{
 	margin-left:980px;
 	font-size:24px;
 	}
+
+.form-popup h1{
+margin-left:90px;
+margin-top:20px;
+font-size:20px;
+font-family: 'Arial Bold';
+}
+
+#space{
+margin-left:50px;
+}
+
+.form-popup a{
+font-size:14px;
+margin-left:20px;
+}
+
+#remember{
+margin-top:1px;
+margin-left:1px;
+}
+
+label {
+padding:7px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+
+position: absolute;
+margin-left:502px;
+margin-top:-350px;
+border: 2px  #f1f1f1;
+width: 348px;
+height: 463px;
+z-index: 9;  
+}
+
+/* Add styles to the form container */
+.form-container {
+display: none;   /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+border-radius:15px;
+max-width:500px;
+padding: 10px;
+background-color:rgb(244,241,222);
+height:400px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+border-radius:6px;
+width: 90%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: white;
+}
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+border-radius:4px;
+background-color: rgb(236, 164, 0);
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+font-size:18px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+border-radius:4px;
+background-color: red;
+width:80px;
+margin-left:120px;
+font-size:14px;
+}
+
+
+
+.formSingup-popup h1{
+margin-left:210px;
+margin-top:7px;
+font-size:30px;
+font-family: 'Arial Bold';
+}
+
+#spaceSignUp{
+margin-left:130px;
+}
+
+.formSingup-popup a{
+font-size:15px;
+margin-left:140px;
+margin-right:0px;
+}
+
+#rememberSignUp{
+margin-top:1px;
+margin-left:1px;
+}
+
+/* The popup form - hidden by default */
+.formSingup-popup {
+display: none;  /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+margin-left:380px;
+margin-top:-349px;
+border: 2px  #f1f1f1;
+width: 342px;
+height: 543px;
+  
+}
+
+/* Add styles to the form container */
+.formSignUp-container {
+border-radius:15px;
+max-width:500px;
+padding: 10px;
+background-color:rgb(244,241,222);
+height:535px;
+position: absolute;
+
+}
+
+.formSignUp-container input[type=text] {
+border-radius:6px;
+width: 170px;
+padding: 15px;
+margin: 5px 5px 22px 0;
+border: none;
+background: white;
+margin-left:20px;
+}
+
+
+
+/* Full-width input fields */
+.formSignUp-container input[type=email], .formSignUp-container input[type=password] {
+border-radius:6px;
+width: 90%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: white;
+}
+
+/* Set a style for the submit/login button */
+.formSignUp-container .button {
+border-radius:4px;
+background-color: rgb(236, 164, 0);
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+font-size:18px;
+}
+
+/* Add a red background color to the cancel button */
+.formSignUp-container .cancel {
+border-radius:4px;
+background-color: red;
+width:80px;
+margin-left:210px;
+font-size:14px;
+}
+
+/* Add some hover effects to buttons */
+.formSignUp-container .button:hover, .join:hover {
+opacity: 1;
+}
+
+ input[type=radio]{
+margin-left:20px;
+}
+
+#type{
+padding-left:15px;
+}	
 
 /* body */
 
