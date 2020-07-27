@@ -95,8 +95,11 @@ According to the analysis of problems from the competitors' website, we came up 
 5. To provide strong and relevant page design and linking so we have a good user experience.
 6. Confirm the reservation process and not cancel it unless the user requests it.
 ## 7. Our services
-We provide several services for all users, such as a guide that shows the famous and the fun places in Jericho, also it shows the places for the restaurants, moreover, it has a tour guide that could take them to a trip in jericho. <br>
-Our users also find the needed transportation services in Jericho such as Kareem and local Taxi offices, also they find services for the travelling stuff like Amteaa. 
+-We provide several services for all users, such as a guide that shows the famous and the fun places in Jericho, also it shows the places for the restaurants, moreover, it has a tour guide that could take them to a trip in jericho. <br>
+-Our users also find the needed transportation services in Jericho such as Kareem and local Taxi offices, also they find services for the travelling stuff like Amteaa. 
+-our web site can provide for the costumer a SIM card , for example the SIM card that the tourist have doesn’t work in Palestine, by our website he can order a SIM card with 
+  3G connection , we will deliver it to the hotel and it’s not expensive it’s cheap.
+-Through our website you can rent a car the only thing you need is a worldwide driving license and it’s so simple you need to take a photo of your ID and your                driving license and send the photos to us through our website, then you can pick the car that you want through our website and in the next Day, the car will be parked at the hotels gate.
 ## 8. Design: 
 ### 8.1 Wireframe
 The wire frame that we designed (it will be updated according to the seo analysis later): https://lot6np.axshare.com/
