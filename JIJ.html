@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.breakhorizontally{
+    height: 100px;
+    }
+
+
+#imagesection1{
+z-index:1000;
+position: absolute;
+padding-top:7px;
+padding-left:7px;
+float:left;
+width: 150px;
+height: 125px;
+}
+
+video {
+position: absolute;
+top: 88px;
+width: 98.75%;
+height: 60%;
+object-position: center;
+object-fit: cover;
+margin-left:0.65px;
+
+}
+
+.navigation{
+overflow: hidden;
+background-color:rgba(0, 29, 74, 1) ;
+width: 100%;
+height:81px;
+background-position:top;
+margin-top:0px;
+}
+
+.jeric{
+background-repeat: no-repeat;
+background-size: cover;
+margin-top:0px;
+background-position: center;
+height: 355px;
+}
+
+.navigation p{
+margin-left:170px;
+margin-top:20px;
+border-width: 0px;
+position: absolute;
+font-family: Merriweather;
+font-size: 45px;
+color: #FFFFFF;
+}
+
+.currency {
+float:right;
+font-size:14px;
+width: 50px;
+height: 30px;
+padding: 0px;
+margin: 30px 350px;
+box-sizing: 20px;
+border:none;
+border-radius:4px;
+background-color:#f1f1f1
+}
+ 
+#Lang{
+float:right;
+font-size:14px;
+width: 50px;
+height: 30px;
+padding: 0px;
+margin: 30px -460px;
+box-sizing: 20px;
+border:none;
+border-radius:4px;
+background-color:#f1f1f1  
+}
+
+.join{
+width: 138px;
+height: 50px;
+float:right;
+position:right-side;
+font-size:22px;
+margin: 25px -700px;
+padding-left:7px;
+padding-top:5px;
+border-radius:4px;
+background-color:rgb(236, 164, 0);
+color:white;
+text-decoration: none;
+}
+
+input[type=search]{
+position:absolute;
+box-sizing: border-box;
+border: 2px solid #ccc;
+font-size: 16px;
+background-color: white;
+width: 346px;
+height: 52px;
+padding: 4px 0px 1px 13px;;
+border-radius: 4px;
+margin:65px 50px 40px 500px;
+}  
+    
+#Check_in{
+position:absolute;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 15px 4px 320px;
+}
+
+#Check_out{
+position:absolute;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 0px 4px 550px;
+}
+
+.jeric select{
+position:absolute;
+margin-left: 180px;
+margin-top: 180px;
+font-size:14px;
+width: 217px;
+height: 52px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+border-radius:4px;
+background-color:#f1f1f1;
+padding: 4px 1px 1px 5px;
+margin:170px 320px 4px 780px;
+
+}
+#search{
+position:absolute;
+font-weight: 700;
+font-style: normal;
+width: 125px;
+height: 40px;
+float:right;
+position:center;
+font-size:25px;
+margin: 250px 580px;
+padding-left:50px;
+padding-top:7px;
+border-radius:4px;
+background-color:rgb(236, 164, 0);
+color:white;
+text-decoration: none;
+}
+
+#Hotelspage{
+background-image:url("images/hotels.png");
+background-position:center;
+position: absolute;
+width: 300px;
+height: 232px;
+margin-left: 510px;
+display: flex;
+}
+
+#Chaletspage{
+background-image:url("images/chalets.jpg");
+position: absolute;
+width: 300px;
+height: 171px;
+margin-left: 850px;
+display: flex;
+margin-top:20px;
+}
+
+#Hostelspage{
+background-image:url("images/hostels.jpg");
+position: absolute;
+width: 300px;
+height: 171px;
+margin-left: 170px;
+display: flex;
+margin-top:20px;
+}
+
+#Rarrow{
+position:absolute;
+width:50px;
+height:40px;
+display:fix;
+margin-top:90px;
+margin-left:800px;
+}
+
+#Larrow{
+position:absolute;
+width:50px;
+height:40px;
+display:fix;
+margin-top:90px;
+margin-left:455px;
+}
+
+#Hot{
+position:absolute;
+margin-top:200px;
+margin-left:290px;
+font-size:24px;
+}
+
+#chal{
+position:absolute;
+margin-top:240px;
+margin-left:610px;
+font-size: 2.2em;
+}
+
+#Host{
+position:absolute;
+margin-top:200px;
+margin-left:980px;
+font-size:24px;
+}
+
+.open-button {
+position: absolute;
+background-color: rgba(0, 29, 74, 1);
+border:none;
+color: white;
+padding:2px 4px;
+border-radius:4px;
+cursor: pointer;
+margin: 34px 1060px;
+font-size:20px;
+width: 70px
+}
+
+.form-popup h1{
+margin-left:90px;
+margin-top:20px;
+font-size:20px;
+font-family: 'Arial Bold';
+}
+
+#space{
+margin-left:50px;
+}
+
+.form-popup a{
+font-size:14px;
+margin-left:20px;
+}
+
+#remember{
+margin-top:1px;
+margin-left:1px;
+}
+
+label {
+padding:7px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+
+position: absolute;
+margin-left:502px;
+margin-top:-350px;
+border: 2px  #f1f1f1;
+width: 348px;
+height: 463px;
+z-index: 9;  
+}
+
+/* Add styles to the form container */
+.form-container {
+display: none;   /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+border-radius:15px;
+max-width:500px;
+padding: 10px;
+background-color:rgb(244,241,222);
+height:400px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+border-radius:6px;
+width: 90%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: white;
+}
+
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+border-radius:4px;
+background-color: rgb(236, 164, 0);
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+font-size:18px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+border-radius:4px;
+background-color: red;
+width:80px;
+margin-left:120px;
+font-size:14px;
+}
+
+
+
+.formSingup-popup h1{
+margin-left:210px;
+margin-top:7px;
+font-size:30px;
+font-family: 'Arial Bold';
+}
+
+#spaceSignUp{
+margin-left:130px;
+}
+
+.formSingup-popup a{
+font-size:15px;
+margin-left:140px;
+margin-right:0px;
+}
+
+#rememberSignUp{
+margin-top:1px;
+margin-left:1px;
+}
+
+/* The popup form - hidden by default */
+.formSingup-popup {
+display: none;  /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+margin-left:380px;
+margin-top:-349px;
+border: 2px  #f1f1f1;
+width: 342px;
+height: 543px;
+  
+}
+
+/* Add styles to the form container */
+.formSignUp-container {
+border-radius:15px;
+max-width:500px;
+padding: 10px;
+background-color:rgb(244,241,222);
+height:535px;
+position: absolute;
+
+}
+
+.formSignUp-container input[type=text] {
+border-radius:6px;
+width: 170px;
+padding: 15px;
+margin: 5px 5px 22px 0;
+border: none;
+background: white;
+margin-left:20px;
+}
+
+
+
+/* Full-width input fields */
+.formSignUp-container input[type=email], .formSignUp-container input[type=password] {
+border-radius:6px;
+width: 90%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: white;
+}
+
+/* Set a style for the submit/login button */
+.formSignUp-container .button {
+border-radius:4px;
+background-color: rgb(236, 164, 0);
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+font-size:18px;
+}
+
+/* Add a red background color to the cancel button */
+.formSignUp-container .cancel {
+border-radius:4px;
+background-color: red;
+width:80px;
+margin-left:210px;
+font-size:14px;
+}
+
+/* Add some hover effects to buttons */
+.formSignUp-container .button:hover, .join:hover {
+opacity: 1;
+}
+
+ input[type=radio]{
+margin-left:20px;
+}
+
+#type{
+padding-left:15px;
+}
+
+
+</style>
+<title>JIJ</title>
+</head>
+
+<body>
+
+<div class="navigation">
+<a href>
+<img id="imagesection1" src="images/logo.png"></img>
+</a>
+<p>Journey Into Jericho</p>
+
+<form method="post">
+<select class="currency" name="currency" >
+<option  >NIS</option>
+<option>AUD</option>
+<option>BHD</option>
+<option>BRL</option>
+<option>CAD</option>
+<option>CHF</option>
+<option>CLP</option>
+<option>CNY</option>
+<option>COP</option>
+<option>DZD</option>
+<option>EGP</option>
+<option>EUR</option>
+<option>GBP</option>
+<option>GHS</option>
+<option>HKD</option>
+<option>IDR</option>
+<option>ILS</option>
+<option>INR</option>
+<option>IQD</option>
+<option>JOD</option>
+<option>JPY</option>
+<option>KRW</option>
+<option>KWD</option>
+<option>LKR</option>
+<option>MAD</option>
+<option>MYR</option>
+<option>NGN</option>
+<option>NZD</option>
+<option>OMR</option>
+<option>PHP</option>
+<option>PKR</option>
+<option>PLN</option>
+<option>QAR</option>
+<option>RUB</option>
+<option>SAR</option>
+<option>SEK</option>
+<option>SGD</option>
+<option>THB</option>
+<option>TND</option>
+<option>TRY</option>
+<option>TWD</option>
+<option>USD</option>
+<option>VND</option>
+<option>ZAR</option></select>
+
+
+<select class="currency" id="Lang" name="Language" >
+<option>EN</option>
+<option>AR</option>
+</select>
+
+<button class="open-button" onclick="openForm1()"><b>Login</b></button>
+<button class="join" onclick="openFormS()"><b>join us</b></button>
+</form>
+</div>
+
+<div class="jeric">
+<header>
+<video autoplay muted loop>
+<source src="video_Trim.mp4" type="video/mp4" />
+</video>
+
+<form  class="marginLeft" method="post">
+<input type="search" placeholder="Search for a hotel, hostel or chalet..">
+<input id="Check_in" type="date"  name="Check_in" placeholder="Check in">
+<input id="Check_out" type="date"  name="Check_out" placeholder="Check out">
+<select name="Guests" >
+
+<option>Adults</option>
+<option>Children</option>
+<option>rooms</option></select><br>
+
+<a id="search" href="Search">Search</a>
+</form>
+</div>
+<div class="breakhorizontally"></div>
+
+<div class="marginLeft">
+<a href=" ">
+<div id="Hotelspage"></div>
+</a>
+<a href= " ">
+<div id="Chaletspage"></div>
+</a>
+<a href= " ">
+<div id="Hostelspage"></div>
+</a>
+<div id="Tourguide"></div>
+
+<img class="imagesection1" id="Rarrow" src="images/rarrow.png"></img>
+<img class="imagesection1" id="Larrow" src="images/larrow.png"></img>
+
+<p id="Hot"><b>Hotels</b></p>
+<p id="chal">Chalets</p>
+<p id="Host"><b>Hostels</b></p>
+</div>
+
+</header>
+<div class="form-popup" id="myForm">
+<form action="/action_page.php" class="form-container">
+<h1>Welcome back</h1><br>
+<p id="space">__________________________</p>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+<label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" required> 
+<label>
+<input type="checkbox" name="remember"> Remember me</label> 	
+<a href>sign up</a> <a href>Foregt password?</a><br><br>
+<button type="submit" class="btn">Login</button>
+<button type="button" class="btn cancel" onclick="closeForm1()">close</button>
+
+</form>
+</div>
+
+<script>
+function openForm1() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeForm1() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
+<div class="formSingup-popup" id="myFormSignup">
+<form action="/action_page.php" class="formSignUp-container">
+<h1>Join us</h1><br>
+<p id="spaceSignUp">____________________________</p>
+<input type="text" placeholder="First name" required>
+<input type="text" placeholder="Last name" required><br>
+<label for="email">Email</label>
+<input type="email" placeholder="Enter Email" name="email" required>
+<label for="psw">Password</label>
+<input type="password" placeholder="Enter Password" name="psw" required> 
+<label>
+<input type="checkbox" name="rememberSignUp"> Remember me</label> 	
+<a href>Already have account</a><br>
+
+
+  <p id="type">I'm a:</p>
+  <input type="radio" id="Tourists" name="Tourists" value="Tourists" />
+  <label for="Tourists">Tourists</label>
+  <input type="radio" id="Owner" name="Owner" value="Owner" />
+  <label for="Owner">Owner</label>
+  <input type="radio" id="Tour guide" name="Tour guide" value="Tour guide" />
+  <label for="Tour guide">Tour guide</label><br><br>
+
+<button type="submit" class="button">Login</button>
+<button type="button" class="button cancel" onclick="closeForm()">close</button>
+</form>
+</div>
+
+<script>
+function openFormS() {
+  document.getElementById("myFormSignup").style.display = "block";
+}
+
+
+function closeForm() {
+  document.getElementById("myFormSignup").style.display = "none";
+}
+
+</script>
+</body>
+</html>
