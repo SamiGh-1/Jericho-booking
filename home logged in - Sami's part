@@ -129,6 +129,12 @@
         margin: 10px;
         padding: 10px;
     }
+    .bott{
+        color: white;
+        font-family: Arial;
+        margin: 10px;
+        padding: 10px;
+    }
     .labll{
         background-color: #F59A23;
         border-radius: 2px;
@@ -136,6 +142,10 @@
     }
     .extra{
         height: 260px;
+    }
+    .buttonn{
+        border: none;
+        background-color: white;
     }
         </style>
         <title></title>
@@ -166,15 +176,15 @@
             </div>
             <div class="flx">
                 <div class="Chaletspage"><h2 class="hh2">Chalets</h2></div>
-                <div class="ima"><img id="arrow" src="images/up.jpg" alt="Up Arrow"></div>
+                <div class="ima"><button class="buttonn"><img id="arrow" src="images/up.jpg" alt="Up Arrow"></button></div>
                 <div class="Hotelspage"><h2 id="ra">Hotels</h2></div>
-                <div class="ima"><img id="arrow" src="images/down.jpg" alt="Down Arrow"></div>
+                <div class="ima"><button class="buttonn"><img id="arrow" src="images/down.jpg" alt="Down Arrow"></button></div>
                 <div class="Hostelspage"><h2 class="hh2">Hostels</h2></div>
             </div>
         </div>
         <br><br><br><br>
         <div class="lower flx2">
-            <div class="bot"><h1>Your booking state:</h1></div><br>
+            <div class="bott"><h1>Your booking state:</h1></div><br>
             <div id="upper">
                 <div class="bot extra">
                     <h2>Jericho Resort Village</h2><br>
