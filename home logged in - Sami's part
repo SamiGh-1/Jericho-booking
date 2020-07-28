@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+    body{
+        margin-left: 120px;
+    }
+    .Hotelspage{
+        background-image:url("images/hotels.png");
+        background-size: 100%;
+        width: 400px;
+        height: 232px;
+        margin:5px;
+        align-self: center;
+        border-radius: 6px;
+    }
+
+    .Chaletspage{
+        background-image:url("images/chalets.jpg");
+        width: 300px;
+        height: 171px;
+        margin:5px;
+        align-self: center;
+        border-radius: 6px;
+    }
+
+    .Hostelspage{
+        background-image:url("images/hostels.jpg");
+        width: 300px;
+        height: 171px;
+        margin:5px;
+        align-self: center;
+        border-radius: 6px;
+    }
+    .flx{
+        display: flex;
+        flex-direction: column;
+        float: right;
+    }
+    .hh2{
+        font-family: Arial;
+       text-align: center;
+       background-color: #001D4A;
+       color: white;
+       width: 100px;
+       margin-left: 34%;
+       margin-top: 23%;
+    }
+    #ra{
+        font-family: Arial;
+        text-align: center;
+       background-color: #001D4A;
+       color: white;
+       width: 100px;
+       margin-left: 37%;
+       margin-top: 25%;
+    }
+    .offers{
+        background-image: url(images/Untitled.png);
+        background-size: 100%;
+        width: 300px;
+        height: 300px;
+    }
+    #upper{
+        font-family: Arial;
+        display: flex;
+    }
+    #space{
+        margin-top: 50px;
+        width: 700px;
+    }
+    #offer{
+        font-family: Arial;
+        text-align: center;
+        background: none;
+        width: 100px;
+        font-size: 35px;
+        margin-left: 29%;
+        margin-top: 42%;
+    }
+    .flx2{
+        display: flex;
+        flex-direction: column;
+    }
+    .searches{
+        font-family: Arial;
+        width: 750px;
+        height: 160px;
+        background-color: #001D4A;
+        color: white;
+        border-radius: 6px;
+    }
+    .Recent{
+        width: 200px;
+        height: 100px;
+        float: left;
+        margin: 25px;
+        padding-bottom: 100px;
+    }
+    #arrow{
+        align-self: center;
+        width: 100px;
+        height: 50px;
+    }
+    .ima{
+        align-self: center;
+        margin: 5px;
+    }
+    #hh1{
+        font-size: 40px;
+    }
+    .lower{
+        background-image: linear-gradient(
+        rgba(0.5, 0, 0, 0.7),
+        rgba(0.5, 0, 0, 0.7)), url(images/back.jpg);
+        background-size: 100%;
+        margin-left: 8%;
+        padding-left: 2%;
+        width: 1100px;
+        height: 520px;
+        border-radius: 6px;
+    }
+    .bot{
+        color: white;
+        font-family: Arial;
+        border: solid white;
+        border-width: 2px;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .labll{
+        background-color: #F59A23;
+        border-radius: 2px;
+        padding: 5px;
+    }
+    .extra{
+        height: 260px;
+    }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="upper">
+            <div class="flx2">
+                <div id="upper">
+                    <div class="offers"><h2 id="offer">OFFERS</h2></div>
+                    <div id="space"><h1 id="discount">Here's a 15% discount</h1><h1>because you booked 3 times in the last 40 days</h1><h4>Press to earn the code</h4></div>
+                </div>
+                <div class="flx2">
+                    <div><h1 id="hh1">Recent Searches</h1></div>
+                    <div class="searches">
+                        <img class="Recent" src="images/magtas.jpg" alt="Magtas hotel">
+                        <h2>Magtas hotel</h2>
+                        <h4>Review : 7.3/10</h4>
+                        <h4>Address : Magtas st, 0058588 Jericho, Palestinian Territory</h4>
+                    </div>
+                    <br><br>
+                    <div class="searches">
+                        <img class="Recent" src="images/Wadi.jpg" alt="Wadi AL-Qelt Hostel">
+                        <h2>Wadi AL-Qelt Hostel</h2>
+                        <h4>Review : 9.2/10</h4>
+                        <h4>Address : Al-Marashahat Street (Wadi Al-Qalt), next to Wadi Al-Qelt Equestrian Center, Jericho, Palestinian Territory</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="flx">
+                <div class="Chaletspage"><h2 class="hh2">Chalets</h2></div>
+                <div class="ima"><img id="arrow" src="images/up.jpg" alt="Up Arrow"></div>
+                <div class="Hotelspage"><h2 id="ra">Hotels</h2></div>
+                <div class="ima"><img id="arrow" src="images/down.jpg" alt="Down Arrow"></div>
+                <div class="Hostelspage"><h2 class="hh2">Hostels</h2></div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="lower flx2">
+            <div class="bot"><h1>Your booking state:</h1></div><br>
+            <div id="upper">
+                <div class="bot extra">
+                    <h2>Jericho Resort Village</h2><br>
+                    <h3>Booked on: mm/dd/yy</h3>
+                    <h3>Duration: mm/dd/yy - mm/dd/yy</h3>
+                    <h3>Features:</h3>
+                    <label class="labll">Currency change</label>
+                    <label class="labll">Dry cleaning</label>
+                    <label class="labll">Laundry service</label>
+                </div>
+                <div class="bot extra">
+                    <h2>Transportation state:</h2>
+                    <h3>Rent a Skoda Octavia for 3 days</h3>
+                    <br><br><br><h3>Features:</h3>
+                    <label class="labll">Daily wash</label>
+                    <label class="labll">Parking space</label>
+                </div>
+                <div class="flx2">
+                    <div class="bot">
+                        <h3>SIM card state:</h3>
+                        <h4>Purchased a JAWWAL SIM card with </h4><h4>50 NIS balance and 2GB 3g service.</h4>
+                    </div>
+                    <div class="bot">
+                        <h3>Luggage state:</h3>
+                        <h4>Your luggage are in a safe place</h4><h4>so you can enjoy your time.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </body>
+</html>
