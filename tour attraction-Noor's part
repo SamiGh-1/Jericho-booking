@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.breakhorizontally{
+height: 100px;
+    }
+#imagesection1{
+z-index:1000;
+position: absolute;
+padding-top:7px;
+padding-left:7px;
+float:left;
+width: 150px;
+height: 125px;
+}
+
+.header{
+overflow: hidden;
+background-color:rgba(0, 29, 74, 1) ;
+width: 100%;
+height:81px;
+background-position:top;
+margin-top:0px;
+}
+
+.header p{
+margin-left:170px;
+margin-top:20px;
+border-width: 0px;
+position: absolute;
+font-family: Merriweather;
+font-size: 45px;
+color: #FFFFFF;
+}
+
+.navigation{
+margin-top:25px;
+margin-left:390px;
+
+}
+
+#tourist_nav{
+font-size:22px;
+border-radius:20px;
+background-color:rgb(236, 164, 0);
+color:white;
+text-decoration: none;
+margin-right:16px;
+border-width:0px;
+height:40px;
+padding-left:10px;
+}
+#places , #trip , #service{
+font-size:22px;
+border-radius:20px;
+background-color:white;
+color:black;
+text-decoration: none;
+margin-right:20px;
+border-width:1px;
+text-align: center;
+width:140px;
+height:40px;
+}
+
+video{
+width: 720px;
+height: 370px;
+margin-top:50px;
+margin-left:63px;
+}
+
+#ojaPic{
+position:absolute;
+margin-left:730px;
+margin-top:-374px;
+width: 249px;
+height: 205px;
+}
+#ojaPic2{
+position:absolute;
+margin-left:960px;
+margin-top:-374px;
+width: 249px;
+height: 196px;
+}
+#ojaPic3{
+position:absolute;
+margin-left:730px;
+margin-top:-200px;
+width: 249px;
+height: 196px;
+}
+#ojaPic4{
+position:absolute;
+margin-left:960px;
+margin-top:-200px;
+width: 249px;
+height: 200px;
+}
+
+#Tourist_attractions{
+margin-left:300px;
+font-size:24px;
+font-family: 'Arial Bold', 'Arial', sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+#line{
+margin-left:150px;
+}
+
+#addIcon{
+width: 39px;
+height: 40px;
+margin-left:55px;
+}
+
+#MonasteryPic{
+width: 178px;
+height: 136px;
+margin-top:50px;
+margin-left:40px;
+border-radius:7px;
+}
+#Monastery{
+margin-left:350px;
+margin-top:-130px;
+font-size:22px;
+
+}
+#locIcon{
+width: 23px;
+height: 26px;
+margin-left:350px;
+margin-top:-150px;
+}
+#captionMonstery{
+margin-left:380px;
+margin-top:-30px;
+}
+#pinIcon{
+width:30px;
+height:35px;
+margin-left:680px;
+margin-top:-30px;
+}
+
+#sultanPic{
+width: 178px;
+height: 136px;
+margin-top:100px;
+margin-left:40px;
+border-radius:7px;
+}
+#discrebtion{
+width: 444px;
+height: 163px;
+box-sizing: border-box;
+border-width: 6px;
+border-style: solid;
+border-color: rgba(245, 154, 35, 1);
+margin-left:350px;
+margin-top:50px;
+padding-top:12px;
+padding-left:4px;
+}
+#hisham{
+width: 178px;
+height: 136px;
+margin-top:50px;
+margin-left:40px;
+border-radius:7px;
+}
+#auja{
+width: 178px;
+height: 136px;
+margin-top:70px;
+margin-left:40px;
+border-radius:7px;
+}
+#overf{
+background-color:rgba(0, 105, 130, 1);
+width: 841px;
+height: 800px;
+border-radius: 30px;
+overflow: auto;
+color:white;
+background-color:rgba(0, 29, 74, 1) ;
+}
+#NearToLabel{
+font-size:18px;
+}
+#checkInLable{
+font-size:18px;
+}
+#checkOutLable{
+font-size:18px;
+margin-left:140px;
+}
+#AdultsNumb, #childrenNumb , #roomNumb{
+width: 48px;
+height: 22px;
+	}
+.near{
+border-radius:5px;
+background-color: rgba(245, 154, 35, 1);	
+width: 451px;
+height: 440px;
+padding-left:12px;
+margin-left:850px;
+margin-top:-800px;
+}
+
+input[type=text]{
+width:410px;
+height:40px;
+border-radius:7px;
+}
+input[type=text]{
+width:410px;
+height:40px;
+border-radius:7px;
+}
+input[type=date]{
+width:200px;
+height:40px;
+border-radius:7px;
+}
+select{
+margin-right:15px;
+}
+#nu{
+margin-left:19px;
+}
+.near h1{
+padding-top:12px;
+}
+#bookNow{
+font-size:16px;
+margin-left:150px;
+margin-top:50px;
+color:white;
+background-color:rgba(0, 29, 74, 1) ;
+width:150px;
+height:50px;
+border-radius:7px;
+box-shadow: none;
+position: absolute;
+}
+</style>
+<body>
+<div class="header">
+<a href>
+<img id="imagesection1" src="images/logo.png"></img>
+</a>
+<p>Journey Into Jericho</p>
+</div>
+
+<div class="navigation">
+<button id="tourist_nav" >tourist attractions</button>
+<button id="places" >places</button>
+<button id="trip" >trip</button>
+<button id="service">service</button></div>
+
+<div class="river">
+<video autoplay muted loop>
+<source  src="river.mp4" type="video/mp4" />
+</div>
+<img id="ojaPic" src="images/oja1.jpg"></img>
+<img id="ojaPic2" src="images/oja2.jpg"></img>
+<img id="ojaPic3" src="images/oja3.jpg"></img>
+<img id="ojaPic4" src="images/oja4.jpg"></img>
+
+
+
+
+<div class="breakhorizontally"></div>
+
+
+
+<div id="overf">
+<br>
+<p id="Tourist_attractions">Tourist attractions</p>
+<p id="line">_______________________________________________________________</p>
+<img id="addIcon" src="images/add.png"></img>
+<img id="MonasteryPic" src="images/MTV.jpg"></img>
+<p id="Monastery"><b>Monastery of the Temptation</b></p>
+<img id="locIcon" src="images/location.png"></img>
+<p id="captionMonstery"><b>00 km away from the city center</b></p>
+<img id="pinIcon" src="images/pin.png"></img><br><br>
+
+<img id="addIcon" src="images/add.png"></img>
+<img id="sultanPic" src="images/sultan.jpg"></img>
+<p id="Monastery"><b>Tell es-Sultan</b></p>
+<img id="locIcon" src="images/location.png"></img>
+<p id="captionMonstery"><b>00 km away from the city center</b></p>
+<img id="pinIcon" src="images/pin.png"></img>
+<p id="discrebtion">Lorem ipsum dolor sit amet, consecteturadipiscing elit. Aenean euismod bibendum laoreet. Proin gravida 
+ dolvulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+
+<img id="addIcon" src="images/add.png"></img>
+<img id="hisham" src="images/hisham.jpg"></img>
+<p id="Monastery"><b>Hisham's Palace</b></p>
+<img id="locIcon" src="images/location.png"></img>
+<p id="captionMonstery"><b>00 km away from the city center</b></p>
+<img id="pinIcon" src="images/pin.png"></img><br><br>
+
+<img id="addIcon" src="images/add.png"></img>
+<img id="auja" src="images/oja3.jpg"></img>
+<p id="Monastery"><b>auja spring</b></p>
+<img id="locIcon" src="images/location.png"></img>
+<p id="captionMonstery"><b>00 km away from the city center</b></p>
+<img id="pinIcon" src="images/pin.png"></img><br><br>
+
+</div>
+
+
+<div class="near">
+<h1>Near by places</h1>
+<br>
+<label for="neraTo" id="NearToLabel">Near to:</label><br>
+<input type="text" id="nearTo" name="NeraTo" placeholder="your current location"><br><br><br>
+<label for="checkIn" id="checkInLable" >Check in</label>
+<label for="checkOut" id="checkOutLable" >Check out</label><br>
+<input type="date" id="checkIn name"="checkIn">
+<input type="date" id="checkIn name"="checkIn"><br>
+<input type="checkbox" id="In work"><b>for work</b></label> <br><br>
+<label id="nu" for="adults"><b>adults</b></label>
+<select id="AdultsNumb" name="adults">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="more than 4">more than 4</option>
+</select>
+<label id="nu" for="children"  ><b>children</b></label>
+<select id="childrenNumb" name="children">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="more than 4">more than 4</option>
+</select>
+<label for="room"><b>room</b></label>
+<select  id="roomNumb" name="room">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="more than 4">more than 4</option>  
+</select><br>
+<button id="bookNow" ><b>Book now</b></button>
+</div>
+<div class="breakhorizontally"></div>
+</html>
+</body>
+
+
+
