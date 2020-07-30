@@ -1,0 +1,110 @@
+#rest1{
+position:absolute;
+width: 350px;
+height: 280px;
+margin-left:50px;
+}
+
+#rest2{
+position:absolute;
+margin-left:400px;
+width: 375px;
+height: 150px;
+}
+
+#rest3{
+position:absolute;
+width: 190px;
+height: 130px;
+margin-left:400px;
+margin-top:150px;
+}
+
+#rest4{
+position:absolute;
+width: 195px;
+height: 130px;
+margin-left:580px;
+margin-top:150px;
+}
+
+#rest5{
+position:absolute;
+width: 380px;
+height: 193px;
+margin-left:50px;
+margin-top:280px;
+}
+
+#rest6{
+position:absolute;
+width: 355px;
+height: 193px;
+margin-left:420px;
+margin-top:280px;
+}
+
+.restP{
+margin-left:240px;
+}
+
+#shareH1{
+text-align: center;
+margin-top:545px;
+}
+
+#eventeId{
+text-align: center;
+font-size:30px;
+width: 925px;
+height: 197px;
+background-color:gray;
+padding-top:90px;
+margin-left:200px;
+}
+
+/*Footer*/
+footer{
+  letter-spacing: 1px;
+  display: flex;
+  background-color: #001D4A;
+  height: 35%;
+  color: white;
+  padding-left: 3%;
+  }
+footer h1{
+  font-size: 50px;
+  }
+#mail {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color:#F59A23;
+  }
+#aboutUs{
+  width: 400px;
+  }
+.marginLeft {
+  margin-left: 8%;
+  }
+.formatText{
+  font-size: 30px;
+  font-weight: bold;
+  }
+input[type=email] {
+  margin-left: 10%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+.subscribeButton {
+  background-color:#F59A23;
+  border-radius: 5px;
+  border: none; 
+  color: white; 
+  padding: 14px 20px; 
+  } 
+.subscribeButton:hover {
+  background-color: #001D4A;
+  }
