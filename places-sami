@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .logo{
+                z-index:1000;
+                position: relative;
+                padding-left: 100px;
+                padding-top: 7px;
+                float:left;
+                width: 150px;
+                height: 125px;
+            }
+            .p{
+                color: white;
+                font-size: 50px;
+                margin-top: 10px;
+                padding-bottom: 30px;
+                padding-left: 220px;
+            }
+            .cl1{
+                background-color: #001D4A;
+                background-size: 100%;
+                padding-top: 1px;
+            }
+            .navi{
+                margin: auto;
+                margin-left: 24%;
+            }
+            .nav{
+                width: 180px;
+                height: 50px;
+                background-color: #f59a23;
+                border: solid black;
+                border-radius: 10px;
+                color: white;
+                font-size: 20px;
+                margin: 8px;
+            }
+            .nav:hover{
+                width: 180px;
+                height: 50px;
+                background-color: white;
+                border: solid #f59a23;
+                border-radius: 10px;
+                color: black;
+                font-size: 20px;
+                margin: 8px;
+            }
+            .inner{
+                margin-left: 150px;
+            }
+            .map{
+                margin-left: 15%;
+            }
+            .flxrow{
+                display: flex;
+            }
+            .flxcol{
+                display: flex;
+                flex-direction: column;
+            }
+            .scroll{
+                overflow: auto;
+                width: 600px;
+                height: 800px;
+                background-color: #001D4A;
+                border-radius: 5px;
+            }
+            .rest{
+                margin-left: 10px;
+                margin-bottom: 25px;
+                margin-top: 25px;
+                width: 550px;
+                height: 200px;
+                border: solid white;
+                border-width: 1px;
+                
+                color: white;
+            } 
+            .title{
+                text-align: center;
+                color: white;
+            }
+            .restimg{
+                margin: 8px;
+                width: 200px;
+                height: 130px;
+                border: solid white;
+                border-radius: 5px;
+                border-width: 1px;
+            }
+            .boo{
+                width: 50px;
+                height: 60px;
+                align-self: right;
+                margin-left: 70px;
+            }
+            .prof{
+                width: 47px;
+                height: 47px;
+                margin-left: 5px;
+                border-radius: 45px;
+                background-color: white;
+            }
+            .comm{
+                margin-left: 8px;
+                margin-top: 8px;
+                width: 450px;
+                height: 28px;
+            }
+            .formm{
+                margin-left: 50px;
+                background-color: #f59a23;
+                width: 400px;
+                height: 400px;
+                border-radius: 5px;
+                padding: 15px;
+            }
+            .cl1{
+                background-color: #001D4A;
+                background-size: 100%;
+                padding-top: 1px;
+            }
+            footer{
+                letter-spacing: 1px;
+                display: flex;
+                background-color: #001D4A;
+                height: 35%;
+                color: white;
+                padding-left: 3%;
+                background-size: 100%;
+            }
+            footer h1{
+                font-size: 50px;
+            }
+            #mail {
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                color:#F59A23;
+            }
+            #aboutUs{
+                width: 400px;
+            }
+            .marginLeft {
+                margin-left: 8%;
+            }
+            .formatText{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            input[type=email] {
+                margin-left: 10%;
+                padding: 12px 20px;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            .subscribeButton {
+                background-color:#F59A23;
+                border-radius: 5px;
+                border: none; 
+                color: white; 
+                padding: 14px 20px; 
+            }  
+            .subscribeButton:hover {
+                background-color: #001D4A;
+            }
+            .rrest{
+                width: 350px;   
+                height: 30px;
+                font-size: 20px;
+            }
+            .bookrest{
+                color: white;
+                width: 2000px;
+                font-size: 25px;
+                margin: 10px;
+            }
+            .time{
+                width: 170px;
+            }
+            .bookbutt{
+                width: 180px;
+                height: 50px;
+                background-color: #001D4A;
+                border: solid black;
+                border-radius: 10px;
+                color: white;
+                font-size: 20px;
+                margin-left: 110px;
+            }
+            .bookbutt:hover{
+                width: 180px;
+                height: 50px;
+                background-color: white;
+                border: solid black;
+                border-radius: 10px;
+                color: black;
+                font-size: 20px;
+                margin-left: 110px;
+            }
+            svg{
+                width: 50px;
+                height: 60px;
+                align-self: right;
+                margin-left: 70px;
+            }
+        </style>
+        <title>Places</title>
+    </head>
+    <body>
+        <div class="cl1">
+            <a>
+                <img id="logo" src="images/logo.png" class="logo"></img>
+            </a>
+            <p class="p">Journey Into Jericho</p>
+        </div>
+        <div class="flxrow navi">
+            <div><button class="nav">Tourist Attractions</button></div>
+            <div><button class="nav">Places</button></div>
+            <div><button class="nav">Trips</button></div>
+            <div><button class="nav">Services</button></div>
+        </div>
+        <br><br><br><br>
+        <div class="inner">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54219.7354203509!2d35.4294883438231!3d31.859467452090175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ccc61e6ff8567%3A0x811428a4685668bb!2z2KPYsdmK2K3Ypw!5e0!3m2!1sen!2s!4v1596105513722!5m2!1sen!2s" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br><br><br><br>
+            <div class="flxrow">
+                <div class="scroll">
+                    <h1 class="title">Places</h1>
+                    <div>
+                        <div class="rest">
+                            <div class="flxrow">
+                                <div><img class="restimg" src="images/limonah.jpg" alt="limonah"></div>
+                                <div>
+                                    <h3>Limonah Restaurant</h3>
+                                    <h4>Muntazhat Street, Jericho</h4>
+                                    <h4>3.9/5</h4>
+                                </div>
+                                <div class="flxcol">
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bookmark-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4.5 2a.5.5 0 0 0-.5.5v11.066l4-2.667 4 2.667V8.5a.5.5 0 0 1 1 0v6.934l-5-3.333-5 3.333V2.5A1.5 1.5 0 0 1 4.5 1h4a.5.5 0 0 1 0 1h-4zm9-1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V1.5a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M13 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+                                          </svg>
+                                    </div>
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flxrow">
+                                <div><img class="prof" src="images/prof.png" alt="Profile"></div>
+                                <div>
+                                    <input class="comm" type="text" placeholder="Add a comment ...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="rest">
+                            <div class="flxrow">
+                                <div><img class="restimg" src="images/image.jpg" alt="image"></div>
+                                <div>
+                                    <h3>Example Restaurant</h3>
+                                    <h4>Example, Jericho</h4>
+                                    <h4>__/5</h4>
+                                </div>
+                                <div class="flxcol">
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bookmark-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4.5 2a.5.5 0 0 0-.5.5v11.066l4-2.667 4 2.667V8.5a.5.5 0 0 1 1 0v6.934l-5-3.333-5 3.333V2.5A1.5 1.5 0 0 1 4.5 1h4a.5.5 0 0 1 0 1h-4zm9-1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V1.5a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M13 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+                                          </svg>
+                                    </div>
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flxrow">
+                                <div><img class="prof" src="images/prof.png" alt="Profile"></div>
+                                <div>
+                                    <input class="comm" type="text" placeholder="Add a comment ...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="rest">
+                            <div class="flxrow">
+                                <div><img class="restimg" src="images/image.jpg" alt="image"></div>
+                                <div>
+                                    <h3>Example Restaurant</h3>
+                                    <h4>Example, Jericho</h4>
+                                    <h4>__/5</h4>
+                                </div>
+                                <div class="flxcol">
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bookmark-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4.5 2a.5.5 0 0 0-.5.5v11.066l4-2.667 4 2.667V8.5a.5.5 0 0 1 1 0v6.934l-5-3.333-5 3.333V2.5A1.5 1.5 0 0 1 4.5 1h4a.5.5 0 0 1 0 1h-4zm9-1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V1.5a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M13 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+                                          </svg>
+                                    </div>
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flxrow">
+                                <div><img class="prof" src="images/prof.png" alt="Profile"></div>
+                                <div>
+                                    <input class="comm" type="text" placeholder="Add a comment ...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="rest">
+                            <div class="flxrow">
+                                <div><img class="restimg" src="images/image.jpg" alt="image"></div>
+                                <div>
+                                    <h3>Example Restaurant</h3>
+                                    <h4>Example, Jericho</h4>
+                                    <h4>__/5</h4>
+                                </div>
+                                <div class="flxcol">
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bookmark-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4.5 2a.5.5 0 0 0-.5.5v11.066l4-2.667 4 2.667V8.5a.5.5 0 0 1 1 0v6.934l-5-3.333-5 3.333V2.5A1.5 1.5 0 0 1 4.5 1h4a.5.5 0 0 1 0 1h-4zm9-1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V1.5a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M13 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+                                          </svg>
+                                    </div>
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flxrow">
+                                <div><img class="prof" src="images/prof.png" alt="Profile"></div>
+                                <div>
+                                    <input class="comm" type="text" placeholder="Add a comment ...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="rest">
+                            <div class="flxrow">
+                                <div><img class="restimg" src="images/image.jpg" alt="image"></div>
+                                <div>
+                                    <h3>Example Restaurant</h3>
+                                    <h4>Example, Jericho</h4>
+                                    <h4>__/5</h4>
+                                </div>
+                                <div class="flxcol">
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bookmark-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4.5 2a.5.5 0 0 0-.5.5v11.066l4-2.667 4 2.667V8.5a.5.5 0 0 1 1 0v6.934l-5-3.333-5 3.333V2.5A1.5 1.5 0 0 1 4.5 1h4a.5.5 0 0 1 0 1h-4zm9-1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V1.5a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M13 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+                                          </svg>
+                                    </div>
+                                    <div>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                                            <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+                                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flxrow">
+                                <div><img class="prof" src="images/prof.png" alt="Profile"></div>
+                                <div>
+                                    <input class="comm" type="text" placeholder="Add a comment ...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="formm">
+                    <h1 class="title">Book at...</h1>
+                    <input class="rrest" type="text" placeholder="Place name ...">
+                    <br><br><br><br>
+                    <div class="flxrow">
+                        <div>
+                            <label class="bookrest">Check in</label><br>
+                            <input type="time" class="time">
+                        </div>
+                        <div>&nbsp; &nbsp; &nbsp; &nbsp;</div>
+                        <div>
+                            <label class="bookrest">Check in</label><br>
+                            <input type="time" class="time">
+                        </div>
+                    </div>
+                    <br>
+                    <div><input type="checkbox">I'm on a work trip</div>
+                    <br><br><br><br>
+                    <div><button class="bookbutt">Book Now</button></div>
+                </div>
+            </div>
+        </div>
+        <footer class="cl1">
+			<div id="aboutUs">
+				<h1>JIJ</h1>
+				<p>“Journey into Jericho” is a booking website in Jericho city, it has three locations for the tourist: hotels, hostel and the chalet, We lead tourist to tourist attractions, and help the tourists with several services they need.</p>
+			</div>
+			<div class="marginLeft " style="margin-top: 3%;">
+				<p class="formatText">Subscribe to see what's new</p>
+				<form > 
+					<input type="email" id="email" name="email" placeholder=" Your email ">
+					<button class="subscribeButton"> Subscribe </button>
+				</form>
+			</div>
+			<div class="marginLeft " style="margin-top: 3%;">
+				<h2 class="formatText">contant us</h2>
+				<a id="mail"href="STPT.comp@gmail.com">STPT.comp@gmail.com</a><br>
+				999-9999-999 <br>
+				<address>Palestine - Nablus</address>
+			</div>
+		</footer>
+    </body>
+</html>
