@@ -59,7 +59,7 @@
                 font-family: Arial;
             }
             #address{
-                font-size: 25px;
+                font-size: 20px;
                 color: black;
                 padding-left: 30%;
                 font-family: Arial;
@@ -186,7 +186,7 @@
         </div>
         <div> <img id="dd" src="images/room/stars.jpg" alt="4 stars">
             <h1 id="id1">Jericho Resort Village</h1>
-            <p id="address">Bisan Street , Near Hisham Palace, 162 Jericho, Jericho, Palestine. <a href="#">Show in map</a></p>
+            <p id="address">Bisan Street , Near Hisham Palace, 162 Jericho, <br> Jericho, Palestine. <a href="#">Show in map</a></p>
         </div>
         <br><br>
         <div>
@@ -246,6 +246,7 @@
             <h2 class="hh">There's also special service and equipment for disabled people</h2>
             <h2 class="hh" style="display: inline;">Choose how many in this box --></h2>
             <select name="Disabled">
+	   	<option>0</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
