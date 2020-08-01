@@ -1,6 +1,7 @@
 /* css for homepage */
 * {
     font-family: 'Merriweather', serif;
+	box-sizing: border-box;
     }
 .breakhorizontally{
     height: 100px;
@@ -176,52 +177,18 @@ input[type=search]{
 	color:white;
 	text-decoration: none;
 	}
-.marginLeft{
-	margin-left: 7%;
-	}
-#Hotelspage{
-	background-image:url("image/hotel.png");
-	background-position:center;
-	position: absolute;
-	width: 300px;
-	height: 232px;
-	margin-left: 510px;
-	display: flex;
-	}
-#Chaletspage{
-	background-image:url("image/chalet.jpg");
-	position: absolute;
-	width: 300px;
-	height: 171px;
-	margin-left: 850px;
-	display: flex;
-	margin-top:20px;
-	}
-#Hostelspage{
-	background-image:url("image/hostel.jpg");
-	position: absolute;
-	width: 300px;
-	height: 171px;
-	margin-left: 170px;
-	display: flex;
-	margin-top:20px;
-	}
-#Rarrow{
-	position:absolute;
-	width:50px;
-	height:40px;
-	display:fix;
-	margin-top:90px;
-	margin-left:800px;
-	}
-#Larrow{
-	position:absolute;
-	width:50px;
-	height:40px;
-	display:fix;
-	margin-top:90px;
-	margin-left:455px;
-	}
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 #Hot{
 	position:absolute;
 	margin-top:200px;
