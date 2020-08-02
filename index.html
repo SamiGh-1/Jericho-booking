@@ -1,286 +1,72 @@
-<!-- homepage --> 
 <!DOCTYPE html>
 <html>
-	<header>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-		<title>JIJ - Home</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</header>
+
+	<head>
+		<title></title>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
 	<body>
-		<header>
-			<div class="navigation">
-				<a><img class="imagesection1" src="image/logo.png"></img></a>
-				<p>Journey Into Jericho</p>
-				<form method="post">
-					<select class="currency"name="currency">
-						<option>NIS</option>
-						<option>AUD</option>
-						<option>BHD</option>
-						<option>BRL</option>
-						<option>CAD</option>
-						<option>CHF</option>
-						<option>CLP</option>
-						<option>CNY</option>
-						<option>COP</option>
-						<option>DZD</option>
-						<option>EGP</option>
-						<option>EUR</option>
-						<option>GBP</option>
-						<option>GHS</option>
-						<option>HKD</option>
-						<option>IDR</option>
-						<option>ILS</option>
-						<option>INR</option>
-						<option>IQD</option>
-						<option>JOD</option>
-						<option>JPY</option>
-						<option>KRW</option>
-						<option>KWD</option>
-						<option>LKR</option>
-						<option>MAD</option>
-						<option>MYR</option>
-						<option>NGN</option>
-						<option>NZD</option>
-						<option>OMR</option>
-						<option>PHP</option>
-						<option>PKR</option>
-						<option>PLN</option>
-						<option>QAR</option>
-						<option>RUB</option>
-						<option>SAR</option>
-						<option>SEK</option>
-						<option>SGD</option>
-						<option>THB</option>
-						<option>TND</option>
-						<option>TRY</option>
-						<option>TWD</option>
-						<option>USD</option>
-						<option>VND</option>
-						<option>ZAR</option>
-					</select>
-
-					<select class="currency"id="Lang" name="Language">
-						<option>EN</option>
-						<option>AR</option>
-					</select>
-
-					<button class="open-button" onclick="openForm1()"><b>Login</b></button>
-                                        <button class="join" onclick="openFormS()"><b>join us</b></button>
-				</form>
+		<div class="cl1">
+            <a>
+                <img id="logo" src="logo.png" class="logo"></img>
+            </a>
+            <p class="p h-100">Journey Into Jericho</p>
+        </div>
+        <div id="head">
+	        <div class="justify-content-center align-items-center w-100 d-flex">
+	        	<div><button class="nav">Tourist Attractions</button></div>
+	            <div><button class="nav">Places</button></div>
+	            <div><button class="nav">Trips</button></div>
+	            <div><button class="nav">Services</button></div>
+	        </div>
+		</div>
+		<div id="textHead">
+			<p>What do we do for you?</p>
+		</div>
+		<div class="breakhorizontally"></div>
+		
+		<section id="sec1">
+			<div>
+				<div id="sms">
+				<img src="sms.png">
+				<p>
+					lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
+				</p>
+				</div>
+				<div id="Amtea">
+					<video autoplay muted loop>
+					<source  src="video.mp4" type="video/mp4" />
+					</video>
+					<p>
+						Amtea is a platform that connects travelers with available extra luggage space to people who want to send items to the same traveling destination, by renting the traveler’s available luggage space and therefore reducing their traveling expenses.
+					</p>
+				</div>
+				<div id="car">
+					<img src="car.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus.</p>
+				</div>	
 			</div>
-			<div class="jeric">
-				<video autoplay muted loop>
-					<source src="image/intro.mp4" type="video/mp4" />
-				</video>
-				<form class="marginLeft"method="post">
-					<input type="search" placeholder="Search for a hotel, hostel or chalet..">
-					<input id="Check_in" type="date"  name="Check_in" placeholder="Check in">
-					<input id="Check_out" type="date"  name="Check_out" placeholder="Check out">
-					<select name="Guests">
-						<option>Adults</option>
-						<option>Children</option>
-						<option>rooms</option>
-					</select>
-					<br>
-					<a id="search" href="Search">Book now!</a>
-				</form>
+		</section>
+		
+		<section id="sec2">
+			<div id="buttonAction">
+				<button class="threeAction">
+					Buy SIM card and get from your place of residence
+				</button>
+				<button class="threeAction">
+					Book a car or a cab and it will be delivered for you
+				</button>
+				<button class="threeAction">
+					We'll move your luggage to your place
+				</button>
 			</div>
 			<div class="breakhorizontally"></div>
-			<div class="row">
-				<div class="column">
-					<a href="#" style="text-decoration:none; font-size:20px; align:center;"> <img src="image/1.jpg" style="width:100%;height:300px;"> Types</a> 
-				</div>
-				<div class="column">
-					<a href="#" style="text-decoration:none; font-size:20px; align:center;"> <img src="image/2.jpg" style="width:100%;height:300px;"> Tourist Attractions</a>
-				</div>
-				<div class="column">
-					<a href="#" style="text-decoration:none; font-size:20px; align:center;"> <img src="image/3.jpg" style="width:100%;height:300px;"> Features </a>
-				</div>
-				<div class="column">
-					<a href="#" style="text-decoration:none; font-size:20px; align:center;" > <img src="image/4.jpg" style="width:100%;height:300px;"> Places </a>
-				</div>
-				<div class="column">
-					<a href="#" style="text-decoration:none; font-size:20px; align:center;"> <img src="image/5.jpg" style="width:100%;height:300px;"> Trip</a>
-				</div>
-			</div>
-		</header>
-
-<div class="form-popup" id="myForm">
-<form action="/action_page.php" class="form-container">
-<h1>Welcome back</h1><br>
-<p id="space">__________________________</p>
-<label for="email"><b>Email</b></label>
-<input type="text" placeholder="Enter Email" name="email" required>
-<label for="psw"><b>Password</b></label>
-<input type="password" placeholder="Enter Password" name="psw" required> 
-<label>
-<input type="checkbox" name="remember"> Remember me</label> 	
-<a href>sign up</a> <a href>Foregt password?</a><br><br>
-<button type="submit" class="btn">Login</button>
-<button type="button" class="btn cancel" onclick="closeForm1()">close</button>
-
-</form>
-</div>
-
-<script>
-function openForm1() {
-  document.getElementById("myForm").style.display = "block";
-}
-function closeForm1() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
-
-
-
-<div class="formSingup-popup" id="myFormSignup">
-<form action="/action_page.php" class="formSignUp-container">
-<h1>Join us</h1><br>
-<p id="spaceSignUp">____________________________</p>
-<input type="text" placeholder="First name" required>
-<input type="text" placeholder="Last name" required><br>
-<label for="email">Email</label>
-<input type="email" placeholder="Enter Email" name="email" required>
-<label for="psw">Password</label>
-<input type="password" placeholder="Enter Password" name="psw" required> 
-<label>
-<input type="checkbox" name="rememberSignUp"> Remember me</label> 	
-<a href>Already have account</a><br>
-
-
-  <p id="type">I'm a:</p>
-  <input type="radio" id="Tourists" name="Tourists" value="Tourists" />
-  <label for="Tourists">Tourists</label>
-  <input type="radio" id="Owner" name="Owner" value="Owner" />
-  <label for="Owner">Owner</label>
-  <input type="radio" id="Tour guide" name="Tour guide" value="Tour guide" />
-  <label for="Tour guide">Tour guide</label><br><br>
-
-<button type="submit" class="button">Login</button>
-<button type="button" class="button cancel" onclick="closeForm()">close</button>
-</form>
-</div>
-
-<script>
-function openFormS() {
-  document.getElementById("myFormSignup").style.display = "block";
-}
-function closeForm() {
-  document.getElementById("myFormSignup").style.display = "none";
-}
-</script>
-
-
-		<div class="breakBetweenSec"></div>
-		
-		<section>
-			<div class="feature">
-     			<div class="featureCard" style="background-color: #0096C7;">
-	        		<h2>Communicate</h2>
-	        		<a href="" target="_blank">Buy your SIM !</a>
-	        		<p>You can buy SIM card from Jawwal or Ooreedoo</p>
-	        		<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-phone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  						<path fill-rule="evenodd" d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-					</svg>
-	          		
-	      		</div>
-		    	
-		    	<div class="breakVertically"></div>
-		    	
-		    	<div class="featureCard" style="background-color: #006992;">
-			       <h2>Move luggage</h2>
-			       <a href="" target="_blank">Hire now !</a>
-			       <p>Hiring people to move your luggage to the place you are staying in using (Amteaa)</p>
-			       <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-handbag-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  					<path d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 1 1 6 0v2h-1V3a2 2 0 0 0-2-2z"/>
-  					<path d="M3.405 5a1.5 1.5 0 0 0-1.493 1.35L1 13.252A2.5 2.5 0 0 0 3.488 16h9.024A2.5 2.5 0 0 0 15 13.251l-.912-6.9A1.5 1.5 0 0 0 12.595 5H11v2.5a.5.5 0 1 1-1 0V5H6v2.5a.5.5 0 0 1-1 0V5H3.405z"/>
-					</svg>
-		    	</div>
-	      		
-	      		<div class="breakVertically"></div>
-	      		
-	      		<div class="featureCard" style="background-color: #27476E;">
-		        	<h2>Transport</h2>
-		        	<a href="" target="_blank">Book to transfer</a>
-		        	<p>Booking transportations to get you to your place safely – you can book from CAREEM or local Taxi drivers-</p>
-		        	<i style='font-size:4em' class='fas'>&#xf5de;</i>
-	      		</div>
-
-	      		<div class="breakVertically"></div>
-
-	      		<div class="featureCard" style="background-color: #001D4A;">
-		        	<h2>Enjoy</h2>
-		        	<a href="" target="_blank">Enjoy with us</a>
-		        	<p>Tours, trips and hiking around Jericho to visit famous places with experienced tour guides</p>
-		        	<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-emoji-sunglasses" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  					<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-  					<path fill-rule="evenodd" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM6.5 6.497V6.5h-1c0-.568.447-.947.862-1.154C6.807 5.123 7.387 5 8 5s1.193.123 1.638.346c.415.207.862.586.862 1.154h-1v-.003l-.003-.01a.213.213 0 0 0-.036-.053.86.86 0 0 0-.27-.194C8.91 6.1 8.49 6 8 6c-.491 0-.912.1-1.19.24a.86.86 0 0 0-.271.194.213.213 0 0 0-.036.054l-.003.01z"/>
-  					<path d="M2.31 5.243A1 1 0 0 1 3.28 4H6a1 1 0 0 1 1 1v1a2 2 0 0 1-2 2h-.438a2 2 0 0 1-1.94-1.515L2.31 5.243zM9 5a1 1 0 0 1 1-1h2.72a1 1 0 0 1 .97 1.243l-.311 1.242A2 2 0 0 1 11.439 8H11a2 2 0 0 1-2-2V5z"/>
-					</svg>
-	      		</div>
-	   		</div>
-
-		    <div class="breakhorizontally"></div>
-
-		    <!--about jericho+AD section-->
-		    <div class="flexible">
-		      <div class="card" style="height: 450px;">
-		        <h1 style="font-size: 40px;">About Jericho</h1>
-		        <p style="font-size: 22px;"> Jericho is one of the earliest continuous settlements in the world, dating perhaps from about 9000 BCE. Archaeological excavations have demonstrated Jericho’s lengthy history. The city’s...
-		        	<a href="">Read more  </a>
-				<div style="padding-left: 260px;"> Don't know where to go in Jericho? </div>
-		        </p>
-		        <br>
-		        <div id="linkTour"><a href="">Check out our Tour Guide</a>
-		        </div>
-		      </div>
-		      <div class="breakVertically"></div>
-		      <div class="card imageAD">
-		        <h1 id="titleAD"> Jericho cable car </h1>
-		        <p id="aboutAD"> visit with us and enjoy the amazing views</p>
-		      </div>
-		    </div>
 		</section>
-		
-		<section id="recommended">
-			<div class="row">
-				<div class="column">
-					<div class="container">
-						<img src="image/1.jpg" alt="Avatar" class="imageReco" >
-						<div class="overlay">
-							<div class="text"> Hotel 1</div>
-						</div>
-					</div>
-				</div>
-				<div class="column">
-					<div class="container">
-						<img src="image/2.jpg" alt="Avatar" class="imageReco">
-						<div class="overlay">
-							<div class="text">Hotel 2</div>
-						</div>
-					</div>
-				</div>
-				<div class="column">
-					<div class="container">
-						<img src="image/3.jpg" alt="Avatar" class="imageReco">
-						<div class="overlay">
-							<div class="text">Hotel 3</div>
-						</div>
-					</div>
-				</div>
-				<div class="column">
-					<div class="container">
-						<img src="image/4.jpg" alt="Avatar" class="imageReco">
-						<div class="overlay">
-							<div class="text">Hotel 4</div>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</section>
-		
-		<div class="breakhorizontally"></div>
+
 		<footer>
 			<div id="aboutUs">
 				<h1>JIJ</h1>
