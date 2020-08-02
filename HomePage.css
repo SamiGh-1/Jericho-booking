@@ -1,0 +1,298 @@
+* {
+    font-family: 'Merriweather', serif;
+	box-sizing: border-box;
+}
+.breakBetweenSec{
+	margin-top: 7%;
+}
+.navigation{
+	overflow: hidden;
+	background-color:rgba(0, 29, 74, 1) ;
+	width: 100%;
+	height:81px;
+	background-position:top;
+	margin-top:0px;
+}
+.imagesection1{
+	
+	position: absolute;
+	padding:5px;
+	float:left;
+	width: 150px;
+	height: 150px;	
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	cursor: pointer;
+}
+.currency {
+	font-size:14px;
+	width: 80px;
+	height: 30px;
+	padding: 0px;
+	border:none;
+	border-radius:4px;
+	background-color:#f1f1f1
+	}
+.p{
+	color: white;
+	font-size: 50px;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+.join{
+	margin-top: 18px;
+	padding: 5px;
+	background-color: #F59A23;
+	color: white;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+}
+video{
+	position: relative;
+	object-position: center;
+	object-fit: cover;
+	width: 100%;
+	height: 400px;
+}
+.formm{
+    position:absolute;
+}
+.f{
+	width: 200px;
+	height: 50px;
+	padding: 2px;
+	margin: 5px;
+	border-radius: 5px;
+}
+.ff{
+	width: 350px;
+	height: 50px;
+	padding: 2px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.overlayy {
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	cursor: pointer;
+}
+.featureCard{
+	font-size: 25px;
+    text-align: center;
+    background-color:none;
+    border-radius: 5px;
+    color: white;
+    height: 400px;
+}
+.featureCard p{
+	font-size: 20px; 
+    padding-top: 5%;
+}
+.featurecard p {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.featurecard a {
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#F59A23; 
+}
+.card {
+    background-color:white;
+    box-shadow: 3px 10px 7px #888888;
+    padding: 24px;  
+}
+.card p {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.card a {
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#F59A23; 
+}
+#linkTour a:link, #linkTour a:visited {
+	float:right;
+    color: black;
+    text-decoration: none;
+    background-color:#F59A23;
+    border-radius: 14px; 
+    padding: 15px;
+    font-size: 15px;
+}
+#linkTour a:hover, #linkTour a:active {
+    background-color: #27476E;
+}
+#titleAD {
+	font-size: 40px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    color: white;
+}
+#aboutAD{
+	font-size: 31px;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 4px 8px;
+}
+.imageAD {
+    padding: 0px;   
+    height: 350px;
+    background: url('image/capable_car.jpg');
+    background-size: cover;
+    position: relative;
+}
+.row {
+	display: flex;
+}
+.column {
+	flex: 44.44%;
+}
+.container {
+	position: relative;
+	width: 80%; 
+}
+.imageReco {
+	display: block;
+	width: 80%;
+	height: 200px;
+	border-radius:50%;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: 200px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+	border-radius:50%;
+}
+.container:hover .overlay {
+	opacity: 1;
+}
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.cl2{
+  background-color: #001D4A;
+  background-size: 100%;
+  padding-top: 1px;
+  height: Auto;
+}
+footer{
+  letter-spacing: 1px;
+  display: flex;
+  background-color: #001D4A;
+  height: 35%;
+  color: white;
+  padding-left: 3%;
+  background-size: 100%;
+}
+footer h1{
+  font-size: 50px;
+}
+#mail {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color:#F59A23;
+}
+#aboutUs{
+  width: 400px;
+}
+.marginLeft {
+  margin-left: 8%;
+}
+.formatText{
+  font-size: 30px;
+  font-weight: bold;
+}
+input[type=email] {
+  margin-left: 10%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.subscribeButton {
+  background-color:#F59A23;
+  border-radius: 5px;
+  border: none; 
+  color: white; 
+  padding: 14px 20px; 
+}  
+.subscribeButton:hover {
+  background-color: #001D4A;
+}
+.rrest{
+  width: 350px;   
+  height: 30px;
+  font-size: 20px;
+}
+.bookrest{
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  margin: 10px;
+}
+.time{
+  width: 170px;
+}
+.bookbutt{
+  width: 180px;
+  height: 50px;
+  background-color: #001D4A;
+  border: solid black;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  margin-left: 110px;
+}
+.bookbutt:hover{
+  width: 180px;
+  height: 50px;
+  background-color: white;
+  border: solid black;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  margin-left: 110px;
+}
+svg{
+  width: 50px;
+  height: 60px;
+  align-self: right;
+  margin-left: 70px;
+}
