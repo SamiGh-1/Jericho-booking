@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                display: flex;
+            }
+            .box1{
+                display: flex;
+                padding-left: 150px;
+            }
+            .logo{
+                z-index:1000;
+                position: relative;
+                padding-left: 100px;
+                padding-top: 7px;
+                float:left;
+                width: 150px;
+                height: 125px;
+            }
+            .p{
+                color: white;
+                font-size: 50px;
+                margin-top: 10px;
+                padding-bottom: 30px;
+                padding-left: 220px;
+            }
+            .cl1{
+                background-color: #001D4A;
+                background-size: 100%;
+                padding-top: 1px;
+            }
+            .pics{
+                width: 200px;
+                height: 140px;
+                padding-left: 150px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 4%;
+            }
+            .pic{
+                width: 920px;
+                height: 500px;
+                padding-left: 150px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 10px;
+            }
+            #dd{
+                float: right;
+                width: 150px;
+                length: 50px;
+                padding-right: 20%;
+            } 
+	     #id1{
+                margin-top: 0px;
+                padding-left: 30%;
+                font-size: 45px;
+                font-family: Arial;
+            }
+            #address{
+                font-size: 20px;
+                color: black;
+                padding-left: 30%;
+                font-family: Arial;
+            }
+            td{
+                font-size: 25px;
+                font-family: Arial;
+            }
+            table{
+                padding-left: 150px;
+            }
+            .hh{
+                font-family: Arial;
+                padding-left: 150px;
+                font-size: 25px;
+            }
+            .button{
+                background-color: #F59A23;
+                padding: 20px;
+                margin: 5px;
+                width: 420px;
+                length: 10px;
+                font-size: 20px;
+                color: white;
+                border-radius: 5px;
+            }
+            .button:hover{
+                background-color: white;
+                padding: 20px;
+                margin: 5px;
+                width: 420px;
+                length: 10px;
+                font-size: 20px;
+                color: #F59A23;
+                border-radius: 5px;
+            }
+            #iid{
+                font-size: 25px;
+                color: black;
+                padding-left: 150px;
+                font-family: Arial;
+            }
+            #idd{
+                float: right;
+                position: relative;
+                width: 200px;
+                length:200px;
+                padding-right:120px;
+                padding-left: 30px;
+            }
+            footer{
+                letter-spacing: 1px;
+                display: flex;
+                background-color: #001D4A;
+                height: 35%;
+                color: white;
+                padding-left: 3%;
+                background-size: 100%;
+            }
+            footer h1{
+                font-size: 50px;
+            }
+            #mail {
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                color:#F59A23;
+            }
+            #aboutUs{
+                width: 400px;
+            }
+            .marginLeft {
+                margin-left: 8%;
+            }
+            .formatText{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            input[type=email] {
+                margin-left: 10%;
+                padding: 12px 20px;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            .subscribeButton {
+                background-color:#F59A23;
+                border-radius: 5px;
+                border: none; 
+                color: white; 
+                padding: 14px 20px; 
+            }  
+            .subscribeButton:hover {
+                background-color: #001D4A;
+            }
+        </style>
+        <title>Room Page</title>
+    </head>
+    <body>
+        <div class="cl1">
+            <a>
+                <img id="logo" src="images/logo.png" class="logo"></img>
+            </a>
+            <p class="p">Journey Into Jericho</p>
+        </div>
+        <div class="box">
+            <div>
+                <div>
+                    <img src="images/room/1.jpg" alt="Room" class="pics">
+                </div>
+                <div>
+                    <img src="images/room/2.jpg" alt="Room" class="pics">
+                </div>
+                <div>
+                    <img src="images/room/3.jpg" alt="Room" class="pics">
+                </div>
+                <div>
+                    <img src="images/room/4.jpg" alt="Room" class="pics">
+                </div>
+            </div>
+            <div>
+                <img src="images/room/1.jpg" alt="Room" class="pic">
+            </div>
+        </div>
+        <div> <img id="dd" src="images/room/stars.jpg" alt="4 stars">
+            <h1 id="id1">Jericho Resort Village</h1>
+            <p id="address">Bisan Street , Near Hisham Palace, 162 Jericho, <br> Jericho, Palestine. <a href="#">Show in map</a></p>
+        </div>
+        <br><br>
+        <div>
+            <table>
+                <tr>
+                    <td><h2>Available for all rooms</h2></td>
+                    <td></td>
+                    <td></td>
+                    <td style="color: white;">__________________</td>
+                    <td><h2>Extra features</h2></td>
+                </tr>
+                <tr>
+                    <td>- Air conditioning</td>
+                    <td></td>
+                    <td>- T.V</td>
+                    <td></td>
+                    <td><input type="checkbox"><label>Currency change</label></td>
+                </tr>
+                <tr>
+                    <td>- Coffee / Tea maker</td>
+                    <td></td>
+                    <td>- In-room safe nox</td>
+                    <td></td>
+                    <td><input type="checkbox"><label>Daily housekeeping</label></td>
+                </tr>
+                <tr>
+                    <td>- Desk</td>
+                    <td></td>
+                    <td>- Telephone</td>
+                    <td></td>
+                    <td><input type="checkbox"><label>Dry cleaning</label></td>
+                </tr>
+                <tr>
+                    <td>- Kettle / Dishwasher / Refrigerator</td>
+                    <td></td>
+                    <td>- Shower</td>
+                    <td></td>
+                    <td><input type="checkbox"><label>Laundry service</label></td>
+                </tr>
+                <tr>
+                    <td>- Hair dryer</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox"><label>Luggage storage</label></td>
+                </tr>
+                <tr>
+                    <td>- Internet access LAN / Wireless</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <div>
+            <h2 class="hh">There's also special service and equipment for disabled people</h2>
+            <h2 class="hh" style="display: inline;">Choose how many in this box --></h2>
+            <select name="Disabled">
+	   	<option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
+        <br><br><br><br>
+        <div class="box1">
+            <div><button class="button"> <b>+970599999999 or example@gmail.com</b></button></div>
+            <div><button class="button"> <b>Book Now <br></b></button></div>
+            <div><button class="button"> <b>000 NIS <br></b></button></div>
+        </div>
+        <br><br><br>
+        <div>
+            <img id="idd" src="images/room/5.png" alt="profile">
+            <h2 class="hh">Why Jericho Resort Village?</h2>
+            <p id="iid">Jericho Resort Village is one of the best choices for relaxation if you want to get away from the noise of mega-cities. Jericho Resort Village provides trips to Ein Gedi and Massada, St. George's Monastery in Wadi Quelt and Hisham Palace. Jericho Resort Village is very close to Jericho’s famous cable car, which takes you to the top of Mount of Temptation to find a beautiful restaurant with a great view of the city.</p>
+        </div>
+        <br><br><br><br>
+        <footer class="cl1">
+			<div id="aboutUs">
+				<h1>JIJ</h1>
+				<p>“Journey into Jericho” is a booking website in Jericho city, it has three locations for the tourist: hotels, hostel and the chalet, We lead tourist to tourist attractions, and help the tourists with several services they need.</p>
+			</div>
+			<div class="marginLeft " style="margin-top: 3%;">
+				<p class="formatText">Subscribe to see what's new</p>
+				<form > 
+					<input type="email" id="email" name="email" placeholder=" Your email ">
+					<button class="subscribeButton"> Subscribe </button>
+				</form>
+			</div>
+			<div class="marginLeft " style="margin-top: 3%;">
+				<h2 class="formatText">contant us</h2>
+				<a id="mail"href="STPT.comp@gmail.com">STPT.comp@gmail.com</a><br>
+				999-9999-999 <br>
+				<address>Palestine - Nablus</address>
+			</div>
+		</footer>
+    </body>
+</html>
