@@ -1,5 +1,4 @@
-<head>
-<style>
+
 /*HEADER NOOR CODE*/
 .breakhorizontally{
     height: 100px;
@@ -697,5 +696,4 @@ margin-right:30px;
 	border-radius:12px;
 	}
 	
-</style>
-</head>
+
