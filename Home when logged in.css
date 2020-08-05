@@ -1,39 +1,41 @@
+.action{
+  margin-left: -100px;
+  margin-top: 20px;
+  }
 .breakhorizontally{
     height: 100px;
     }
-	
+  
 #logo{
 position: absolute;
-padding-top:7px;
-padding-left:7px;
+padding-top:0.5%;
+padding-left:0.5%;
 float:left;
 width: 150px;
-height: 125px;
-z-index:1000px;
-
+height: 150px;
 }
 #profile{
 position: absolute;
-width:35px;
-hight:50px;
+width:50px;
+height:50px;
 padding-top:23px;
-padding-left:1130px;
+padding-left:83%;
 }
 
 #seen{
 position: absolute;
-width:35px;
-hight:47px;
+width:40px;
+height:40px;
 padding-top:23px;
-padding-left:1085px;
+padding-left:64%;
 }
 
 #pin{
 position: absolute;
 width:30px;
-hight:30px;
+height:30px;
 padding-top:27px;
-padding-left:1050px;
+padding-left:67%;
 }
 
 #jericho{
@@ -53,11 +55,9 @@ margin-top:0px;
 }
 
 .navigation p{
-margin-left:170px;
-margin-top:20px;
-border-width: 0px;
+margin-left:11%;
+margin-top:1.5%;
 position: absolute;
-font-family: Merriweather;
 font-size: 45px;
 color: #FFFFFF;
 }
@@ -85,7 +85,6 @@ margin: 33px -735px;
 box-sizing: 20px;
 border:none;
 border-radius:4px;
-background-color:rgb(236, 164, 0);
 }
 
 
@@ -153,9 +152,9 @@ text-decoration: none;
 #UserName{
 position: absolute;
 width:45px;
-hight:45px;
+height:45px;
 padding-top:10px;
-padding-left:1010px;
+padding-left:76%;
 font-size:15px;
 }
 
@@ -167,22 +166,12 @@ height: 30px;
 padding: 0px;
 margin: 30px 370px;
 box-sizing: 20px;
-border:none;
 border-radius:4px;
 background-color:#f1f1f1
 }
  
 #Lang{
-float:right;
-font-size:14px;
-width: 50px;
-height: 30px;
-padding: 0px;
 margin: 30px -480px;
-box-sizing: 20px;
-border:none;
-border-radius:4px;
-background-color:#f1f1f1  
 }
 
 #where{
@@ -225,7 +214,7 @@ margin-top:115px;
     background-color: #27476E;
     }
 #titleAD {
-	font-size: 40px;
+  font-size: 40px;
     position: absolute;
     top: 60px;
     left: 30px;
@@ -234,7 +223,7 @@ margin-top:115px;
     color: white;
     }
 #aboutAD{
-	font-size: 31px;
+  font-size: 31px;
     position: absolute;
     top: 130px;
     left: 50px;
@@ -292,14 +281,14 @@ margin-top:115px;
   }
 .flexible{
     display: flex;
-	margin-left:355px;
+  margin-left:355px;
     }
 
 .imageAD {
     padding: 0px;
     width: 65%;
     height: 350px;
-    background: url('image/cable car.jpg');
+    background: url('images/cable car.jpg');
     background-size: cover;
     position: relative;
     }
@@ -325,7 +314,7 @@ margin-top:115px;
     background-color: #27476E;
     }
 #titleAD {
-	font-size: 40px;
+  font-size: 40px;
     position: absolute;
     top: 60px;
     left: 30px;
@@ -334,7 +323,7 @@ margin-top:115px;
     color: white;
     }
 #aboutAD{
-	font-size: 31px;
+  font-size: 31px;
     position: absolute;
     top: 130px;
     left: 70px;
@@ -391,8 +380,8 @@ margin-top:115px;
   text-align: center;
   }
 #recommended{
-	margin-top: 10%;	
-	}
+  margin-top: 10%;  
+  }
 
 /* footer */
 footer{
@@ -474,7 +463,7 @@ input[type=email] {
         display: flex;
         flex-direction: column;
         float: right;
-		margin-top:55px;
+    margin-top:55px;
     }
     .hh2{
         font-family: Arial;
@@ -495,27 +484,23 @@ input[type=email] {
        margin-top: 25%;
     }
     .offers{
-        background-image: url(images/Untitled.png);
+        background-image: url(images/offer.png);
         background-size: 100%;
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
     #upper{
-        font-family: Arial;
         display: flex;
     }
     #space{
         margin-top: 50px;
         width: 600px;
-		
+    
     }
     #offer{
-        font-family: Arial;
         text-align: center;
         background: none;
-        width: 100px;
-        font-size: 32px;
-        margin-left: 29%;
+        margin-left: 15%;
         margin-top: 42%;
     }
     .flx2{
@@ -552,7 +537,7 @@ input[type=email] {
     .lower{
         background-image: linear-gradient(
         rgba(0.5, 0, 0, 0.7),
-        rgba(0.5, 0, 0, 0.7)), url(images/back.jpg);
+        rgba(0.5, 0, 0, 0.7)), url(images/trial.jpg);
         background-size: 100%;
         margin-left: 8%;
         padding-left: 2%;
@@ -587,47 +572,46 @@ input[type=email] {
         border: none;
         background-color: white;
     } 
-	#conect{
-	font-size:40px;
-	margin-left:480px;
-	margin-top:130px;
-	}
-	
-	.pp{
-	border-radius:50%;
-	hight:50px;
-	width:80px;
-	position:absolute;
-	padding-top:14px;
-	padding-left:15px;
-	}
-	.post{
-	width:400px;
-	height:380px;
-	background-color:rgba(0, 105, 146, 1);
-	border-radius:12px;
-	margin-left:195px;
-	font-family: Arial ;
-	
-	}
-	
-	#nameForPost{
-	padding-top:20px;
-	font-size:18px;
-	}
-	
-	.post p{
-	padding-left:110px;
-	font-family: Arial ;
-	color:white;
-	}
+  #conect{
+  font-size:40px;
+  margin-left:480px;
+  margin-top:130px;
+  }
+  
+  .pp{
+  border-radius:50%;
+  height:50px;
+  width:80px;
+  position:absolute;
+  padding-top:14px;
+  padding-left:15px;
+  }
+  .post{
+  width:25%;
+  height:380px;
+  background-color:rgba(0, 105, 146, 1);
+  border-radius:12px;
+  margin-left:195px;
+  font-family: Arial ;
+  
+  }
+  
+  #nameForPost{
+  padding-top:20px;
+  font-size:18px;
+  }
+  
+  .post p{
+  padding-left:110px;
+  color:white;
+  }
 
-	#accountPost{
-	margin-top:-12px;
-	font-size:12px;
-	}
-	
-	#follow{
+  #accountPost{
+  margin-top:-12px;
+  font-size:12px;
+  }
+  
+  #follow{
 width: 70px;
 height: 20px;
 float:right;
@@ -641,57 +625,49 @@ color:white;
 text-decoration: none;
 margin-top:-55px;
 margin-right:30px;
-	}
-	
-	#postPic{
-	width:300px;
-	hight:130px;
-	padding-left:20px;
-	margin-top:20px;
-	}
-	
-	#review{
-	margin-left:-90px;
-	margin-top:5px;
-	width:300px;
-	hight:90px;
-	font-size:13px;
-	}
-	
-	#heart{
-	width:30px;
-	hight:40px;
-	padding-left:12px;
-	margin-top:15px;
-	}
-	
-	#comment{
-	width:30px;
-	hight:40px;
-	padding-left:20px;
-	}
-	
-	#share{
-	width:30px;
-	hight:40px;
-	padding-left:25px;
-	}
-	
-	#ImgCont{
-	height:290px;
-	width:390px;
-	margin-top:-440px;
-	margin-left:650px;
-	}
-	
-	.cont{
-	margin-top:-50px;
-	}
-	.social{
+  }
+  
+  #postPic{
+  width:300px;
+  height:130px;
+  padding-left:20px;
+  margin-top:20px;
+  }
+  
+  #review{
+  margin-left:-90px;
+  margin-top:5px;
+  width:300px;
+  height:90px;
+  font-size:13px;
+  }
+  
+  #heart{
+  padding-left:5%;
+  margin-top:2%;
+  }
+  
+  #comment{
+  padding-left:10%;
+  margin-top: 3%;
+  }
+  
+  #share{
+  padding-left:10%;
+  margin-top: 3.5%
+  }
+  
+  #ImgCont{
+  margin-top:-600px;
+  margin-left:700px;
+  }
+  
+  .cont{
+  margin-top:-50px;
+  }
+  .social{
+    display: flex;
     background-color:rgba(0, 105, 190, 1);
-	border-box:90px 80px;
-	padding-bottom:20px;
-	border-radius:12px;
-	}
-	
-
+  border-radius:12px;
+  }
+  
