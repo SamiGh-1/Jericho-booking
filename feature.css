@@ -19,7 +19,7 @@
                 padding-top: 1px;
             	}
             .nav{
-            	text-align: center;
+                padding-left: 30%;
                 width: 180px;
                 height: 50px;
                 background-color:#f59a23;
@@ -30,13 +30,20 @@
                 font-weight: bold;
                 margin: 8px;
             	}
+	    #touristbutton{
+                padding-left: 8.5%;
+            }
+            #tripbutton{
+                padding-left: 35%;
+            }
             .nav:hover{
                 width: 180px;
                 height: 50px;
                 background-color:white;
+		border:1px solid black;
                 border-radius: 50px;
                 color: black;
-                font-size: 20px;
+                font-size: 19px;
                 margin: 8px;
             	}
 			#sec1{
