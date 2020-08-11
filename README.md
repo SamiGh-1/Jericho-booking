@@ -26,18 +26,20 @@ Public relations, STPT team. <br>
    - fonts
 9. Meet our team
 ## 3. General description <br>
-“JIJ” is a booking website in Jericho city, it has three locations for the tourist: hotels, hostel and the chalet. “ JIJ” leads them to tourist attractions, and helps the tourists with several services they need.
+“JIJ” is a booking website in Jericho city, it has three locations for the tourist: hotels, hostel and the chalet. “ JIJ” leads them to tourist attractions, and helps the tourists with several services they need and We provide a tour Gide that  provide’s information for places and coordinate trip times.
 ### 3.1 Problem Statement:
 We want to provide a tourist reference in Jericho by reserving a place for temporary residence, without defects, and to keep the tourist informed of the updates of his request.<br>
 These days, we have large number failure cases in booking, such as not covering all overnight places in the city that lead to cases of financial injustice and commercial monopoly of the distinct places and ignore the rest of the places and attractions. <br>
 If we ignore this kind of problem, many resources will need to increase in order to deal with successive problems, and it may miss customer trips that could lead to revenue loss, business loss, and more damage to our local reputation. <br>
 ### 3.2 Why is the project worthwhile and practical ? 
 1. The site is specialized in Jericho, which gives better search results.
-2. Educating users about the tourist attractions in Jericho, especially the less visited ones.
+2. Educating users about the tourist attractions in Jericho.
 3. Reduce using social media such as Facebook in booking.
 4. It provides other services for tourists, such as carrying luggage, providing safe transportation inside and outside the city, and a tour guide.
-5. Organizing business, cultural, religious, beach, therapeutic and heritage trips.
+5. Organizing business, cultural,sport and medical.
 6. Provide different payment methods that suit the user.
+7. We provide SIM cards for tourists who want to to reach for their families.
+8. If a businessman or an owner of a hotel wants to make an Advertisement for his hotel he can advertise his hotel throughout our website.
 ## 4. Competitive analysis
 ### 4.1 Primary Competitors
 - Yamsafer:
